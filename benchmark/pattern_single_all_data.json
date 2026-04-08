@@ -1,0 +1,5696 @@
+{
+    "category": "fp_level1",
+    "sub-category": "pattern",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/101_8.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "2": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_7.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "3": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/104_2.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "4": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/108_8.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "5": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/102_2.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "6": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/104_7.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "7": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/104_3.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "8": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/108_8.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "9": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/101_5.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "10": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_1.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "11": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/102_3.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "12": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_5.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "13": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/101_3.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "14": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/101_1.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "15": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/102_5.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "16": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/105_8.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "17": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/106_3.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "18": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_6.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "19": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/107_8.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "20": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/104_1.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "21": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/106_4.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "22": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/107_4.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "23": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/105_7.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "24": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/108_4.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "25": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/106_3.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "26": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/107_6.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "27": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/108_2.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "28": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/105_2.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "29": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_2.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "30": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/103_8.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "31": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_4.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "32": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/101_6.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "33": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/102_1.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "34": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/110_6.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "35": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/108_5.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "36": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_7.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "37": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/103_1.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "38": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/106_5.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "39": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/108_7.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "40": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/101_5.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "41": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/101_8.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "42": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/105_2.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "43": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/106_6.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "44": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/106_2.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "45": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/106_7.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "46": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/101_4.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "47": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/103_5.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "48": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/105_3.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "49": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_3.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "50": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/103_2.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "51": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/108_2.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "52": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/102_7.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "53": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/107_2.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "54": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/106_6.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "55": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/103_2.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "56": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/104_2.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "57": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB4_B/104_5.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "58": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/108_5.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "59": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/101_8.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "60": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_7.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "61": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/104_2.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "62": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/108_8.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "63": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/102_2.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "64": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/104_7.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "65": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/104_3.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "66": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/108_8.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "67": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/101_5.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "68": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_1.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "69": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/102_3.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "70": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_5.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "71": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/101_3.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "72": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/101_1.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "73": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/102_5.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "74": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/105_8.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "75": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/106_3.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "76": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_6.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "77": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/107_8.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "78": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/104_1.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "79": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/106_4.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "80": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/107_4.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "81": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/105_7.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "82": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/108_4.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "83": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/106_3.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "84": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/107_6.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "85": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/108_2.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "86": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/105_2.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "87": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_2.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "88": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/103_8.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "89": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_4.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "90": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/101_6.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "91": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/102_1.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "92": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/110_6.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "93": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/108_5.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "94": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_7.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "95": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/103_1.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "96": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/106_5.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "97": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/108_7.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "98": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/101_5.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "99": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/101_8.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "100": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/105_2.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "101": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/106_6.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "102": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/106_2.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "103": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/106_7.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "104": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/101_4.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "105": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/103_5.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "106": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/105_3.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "107": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_3.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "108": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/103_2.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "109": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/108_2.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "110": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/102_7.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "111": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/107_2.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "112": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/106_6.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "113": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/103_2.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "114": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/104_2.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "115": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB4_B/104_5.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "116": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/108_5.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "117": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/101_8.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "118": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_7.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "119": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/104_2.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "120": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/108_8.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "121": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/102_2.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "122": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/104_7.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "123": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/104_3.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "124": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/108_8.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "125": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/101_5.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "126": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_1.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "127": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/102_3.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "128": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_5.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "129": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/101_3.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "130": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/101_1.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "131": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/102_5.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "132": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/105_8.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "133": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/106_3.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "134": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_6.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "135": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/107_8.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "136": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/104_1.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "137": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/106_4.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "138": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/107_4.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "139": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/105_7.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "140": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/108_4.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "141": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/106_3.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "142": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/107_6.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "143": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/108_2.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "144": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/105_2.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "145": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_2.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "146": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/103_8.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "147": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_4.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "148": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/101_6.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "149": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/102_1.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "150": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/110_6.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "151": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/108_5.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "152": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_7.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "153": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/103_1.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "154": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/106_5.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "155": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/108_7.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "156": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/101_5.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "157": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/101_8.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "158": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/105_2.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "159": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/106_6.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "160": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/106_2.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "161": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/106_7.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "162": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/101_4.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "163": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/103_5.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "164": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/105_3.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "165": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_3.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "166": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/103_2.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "167": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/108_2.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "168": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/102_7.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "169": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/107_2.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "170": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/106_6.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "171": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/103_2.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "172": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/104_2.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "173": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB4_B/104_5.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "174": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/108_5.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "175": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002359_M_500_plain_04.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "176": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002364_M_500_plain_08.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "177": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002624_M_500_plain_07.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "178": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002439_L_500_plain_04.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "179": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002584_K_500_plain_07.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "180": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002593_M_500_plain_04.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "181": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002447_L_500_plain_10.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "182": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002610_K_500_plain_09.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "183": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/P/500/plain/png/00002338_P_500_plain_03.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "184": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/P/500/plain/png/00002351_P_500_plain_05.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "185": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002434_L_500_plain_01.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "186": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002645_K_500_plain_10.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "187": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002449_M_500_plain_03.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "188": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002546_M_500_plain_10.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "189": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002454_M_500_plain_05.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "190": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002349_L_500_plain_09.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "191": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002342_L_500_plain_05.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "192": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002611_L_500_plain_05.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "193": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002574_M_500_plain_08.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "194": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002412_L_500_plain_07.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "195": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002510_L_500_plain_09.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "196": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002394_L_500_plain_03.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "197": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002535_M_500_plain_07.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "198": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002523_K_500_plain_10.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "199": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002303_M_500_plain_05.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "200": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002554_M_500_plain_08.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "201": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002571_K_500_plain_09.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "202": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002500_L_500_plain_08.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "203": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002624_K_500_plain_08.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "204": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002630_K_500_plain_03.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "205": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002514_L_500_plain_02.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "206": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002504_L_500_plain_09.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "207": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002362_L_500_plain_10.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "208": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002626_M_500_plain_09.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "209": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002304_L_500_plain_01.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "210": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002534_M_500_plain_04.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "211": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002612_K_500_plain_02.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "212": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002405_L_500_plain_02.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "213": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002376_L_500_plain_07.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "214": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002616_M_500_plain_07.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "215": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002434_M_500_plain_01.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "216": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002478_M_500_plain_06.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "217": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002407_M_500_plain_08.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "218": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002535_M_500_plain_10.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "219": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002626_L_500_plain_06.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "220": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002426_L_500_plain_04.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "221": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002351_L_500_plain_10.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "222": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002606_M_500_plain_06.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "223": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002327_L_500_plain_08.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "224": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002514_M_500_plain_10.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "225": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002449_L_500_plain_03.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "226": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002534_M_500_plain_10.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "227": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002388_M_500_plain_08.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "228": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002574_K_500_plain_04.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "229": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002625_L_500_plain_08.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "230": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002314_L_500_plain_10.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "231": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002615_M_500_plain_10.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "232": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002489_M_500_plain_07.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "233": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002246_01_dryrun-B_500_roll_08.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "234": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002269_01_dryrun-N_500_plain_09.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "235": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002234_01_dryrun-G_500_slap_09.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "236": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002261_01_dryrun-K_500_slap_03.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "237": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002229_01_dryrun-C_500_slap_02.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "238": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002243_01_dryrun-D_500_plain_10.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "239": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002239_01_dryrun-B_500_roll_03.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "240": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002225_01_dryrun-K_500_slap_07.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "241": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002246_01_dryrun-B_500_roll_06.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "242": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002269_01_dryrun-M_500_plain_02.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "243": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002225_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "244": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002234_01_dryrun-C_500_slap_04.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "245": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002263_01_dryrun-N_500_plain_07.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "246": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002241_01_dryrun-D_500_plain_08.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "247": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002264_01_dryrun-N_500_plain_04.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "248": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002269_01_dryrun-A_500_roll_10.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "249": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-L/500/plain/png/00002263_01_dryrun-L_500_plain_02.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "250": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-L/500/plain/png/00002234_01_dryrun-L_500_plain_03.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "251": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002266_01_dryrun-H_500_slap_05.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "252": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-F/500/slap-segmented/png/00002266_01_dryrun-F_500_slap_06.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "253": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002244_01_dryrun-H_500_slap_07.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "254": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002266_01_dryrun-D_500_plain_10.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "255": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002269_01_dryrun-D_500_plain_01.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "256": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002267_01_dryrun-M_500_plain_09.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "257": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002228_01_dryrun-H_500_slap_03.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "258": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-F/500/slap-segmented/png/00002266_01_dryrun-F_500_slap_10.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "259": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002266_01_dryrun-M_500_plain_04.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "260": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002246_01_dryrun-M_500_plain_05.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "261": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002267_01_dryrun-M_500_plain_03.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "262": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002267_01_dryrun-J_500_plain_10.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "263": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002223_01_dryrun-C_500_slap_07.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "264": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002246_01_dryrun-E_500_plain_04.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "265": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002246_01_dryrun-J_500_plain_02.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "266": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002236_01_dryrun-G_500_slap_08.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "267": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002248_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "268": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-L/500/plain/png/00002243_01_dryrun-L_500_plain_02.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "269": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002241_01_dryrun-N_500_plain_05.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "270": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002248_01_dryrun-E_500_plain_07.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "271": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002258_01_dryrun-E_500_plain_08.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "272": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002237_01_dryrun-J_500_plain_10.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "273": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002267_01_dryrun-B_500_roll_01.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "274": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002269_01_dryrun-M_500_plain_08.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "275": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002239_01_dryrun-K_500_slap_02.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "276": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002234_01_dryrun-D_500_plain_02.png"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "277": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002266_01_dryrun-G_500_slap_05.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "278": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002228_01_dryrun-D_500_plain_09.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "279": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002260_01_dryrun-A_500_roll_06.png"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "280": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002263_01_dryrun-A_500_roll_05.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "281": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002234_01_dryrun-B_500_roll_09.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "282": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002225_01_dryrun-C_500_slap_06.png"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "283": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002237_01_dryrun-D_500_plain_03.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "284": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002258_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "285": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002241_01_dryrun-N_500_plain_07.png"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "286": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002229_01_dryrun-N_500_plain_09.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "287": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002260_01_dryrun-A_500_roll_09.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "288": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002248_01_dryrun-D_500_plain_08.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "289": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002246_01_dryrun-G_500_slap_05.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "290": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002266_01_dryrun-N_500_plain_04.png"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "291": {
+            "image_paths": [
+                "./GenPrint/10K/2170/2170_0_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "292": {
+            "image_paths": [
+                "./GenPrint/10K/1271/1271_0_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "293": {
+            "image_paths": [
+                "./GenPrint/10K/3848/3848_8_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "294": {
+            "image_paths": [
+                "./GenPrint/10K/9854/9854_0_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "295": {
+            "image_paths": [
+                "./GenPrint/10K/8495/8495_2_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "296": {
+            "image_paths": [
+                "./GenPrint/10K/865/865_0_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "297": {
+            "image_paths": [
+                "./GenPrint/10K/1063/1063_0_average quality_slap_Futronic_FTIR optical.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "298": {
+            "image_paths": [
+                "./GenPrint/10K/9774/9774_14_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "299": {
+            "image_paths": [
+                "./GenPrint/10K/9572/9572_0_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "300": {
+            "image_paths": [
+                "./GenPrint/10K/8975/8975_0_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "301": {
+            "image_paths": [
+                "./GenPrint/10K/8514/8514_0_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "302": {
+            "image_paths": [
+                "./GenPrint/10K/9994/9994_7_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "303": {
+            "image_paths": [
+                "./GenPrint/10K/5242/5242_0_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "304": {
+            "image_paths": [
+                "./GenPrint/10K/2277/2277_0_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "305": {
+            "image_paths": [
+                "./GenPrint/10K/8711/8711_7_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "306": {
+            "image_paths": [
+                "./GenPrint/10K/1948/1948_0_average quality_slap_Digital Persona_FTIR optical.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "307": {
+            "image_paths": [
+                "./GenPrint/10K/9036/9036_11_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "308": {
+            "image_paths": [
+                "./GenPrint/10K/6347/6347_0_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "309": {
+            "image_paths": [
+                "./GenPrint/10K/4151/4151_9_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "310": {
+            "image_paths": [
+                "./GenPrint/10K/8678/8678_0_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "311": {
+            "image_paths": [
+                "./GenPrint/10K/9134/9134_3_average quality_slap_Suprema RealScanG1_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "312": {
+            "image_paths": [
+                "./GenPrint/10K/2919/2919_0_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "313": {
+            "image_paths": [
+                "./GenPrint/10K/2215/2215_1_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "314": {
+            "image_paths": [
+                "./GenPrint/10K/8269/8269_0_average quality_swipe_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "315": {
+            "image_paths": [
+                "./GenPrint/10K/2065/2065_1_average quality_swipe_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "316": {
+            "image_paths": [
+                "./GenPrint/10K/8377/8377_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "317": {
+            "image_paths": [
+                "./GenPrint/10K/3576/3576_8_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "318": {
+            "image_paths": [
+                "./GenPrint/10K/9736/9736_6_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "319": {
+            "image_paths": [
+                "./GenPrint/10K/8034/8034_5_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "320": {
+            "image_paths": [
+                "./GenPrint/10K/4405/4405_7_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "321": {
+            "image_paths": [
+                "./GenPrint/10K/598/598_6_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "322": {
+            "image_paths": [
+                "./GenPrint/10K/8496/8496_1_average quality_slap_Secugen_FTIR optical.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "323": {
+            "image_paths": [
+                "./GenPrint/10K/2359/2359_2_average quality_slap_Zvetco_capacitive.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "324": {
+            "image_paths": [
+                "./GenPrint/10K/2795/2795_0_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "325": {
+            "image_paths": [
+                "./GenPrint/10K/1508/1508_0_average quality_slap_TouchChip_capacitive.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "326": {
+            "image_paths": [
+                "./GenPrint/10K/4243/4243_0_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "327": {
+            "image_paths": [
+                "./GenPrint/10K/786/786_2_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "328": {
+            "image_paths": [
+                "./GenPrint/10K/9905/9905_2_average quality_slap_Secugen_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "329": {
+            "image_paths": [
+                "./GenPrint/10K/6065/6065_0_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "330": {
+            "image_paths": [
+                "./GenPrint/10K/4162/4162_7_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "331": {
+            "image_paths": [
+                "./GenPrint/10K/1154/1154_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "332": {
+            "image_paths": [
+                "./GenPrint/10K/9034/9034_5_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "333": {
+            "image_paths": [
+                "./GenPrint/10K/2293/2293_0_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "334": {
+            "image_paths": [
+                "./GenPrint/10K/9945/9945_4_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "335": {
+            "image_paths": [
+                "./GenPrint/10K/5376/5376_0_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "336": {
+            "image_paths": [
+                "./GenPrint/10K/3171/3171_0_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "337": {
+            "image_paths": [
+                "./GenPrint/10K/7930/7930_0_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "338": {
+            "image_paths": [
+                "./GenPrint/10K/5445/5445_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "339": {
+            "image_paths": [
+                "./GenPrint/10K/5776/5776_2_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "340": {
+            "image_paths": [
+                "./GenPrint/10K/1710/1710_7_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "341": {
+            "image_paths": [
+                "./GenPrint/10K/345/345_13_average quality_slap_Secugen_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "342": {
+            "image_paths": [
+                "./GenPrint/10K/5892/5892_13_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "343": {
+            "image_paths": [
+                "./GenPrint/10K/4800/4800_0_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "344": {
+            "image_paths": [
+                "./GenPrint/10K/8916/8916_1_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "345": {
+            "image_paths": [
+                "./GenPrint/10K/3239/3239_0_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "346": {
+            "image_paths": [
+                "./GenPrint/10K/1888/1888_6_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "347": {
+            "image_paths": [
+                "./GenPrint/10K/9687/9687_9_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "348": {
+            "image_paths": [
+                "./GenPrint/10K/1346/1346_6_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "349": {
+            "image_paths": [
+                "./Anguli_10K/6/325.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "350": {
+            "image_paths": [
+                "./Anguli_10K/4/714.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "351": {
+            "image_paths": [
+                "./Anguli_10K/10/757.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "352": {
+            "image_paths": [
+                "./Anguli_10K/4/767.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "353": {
+            "image_paths": [
+                "./Anguli_10K/4/568.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "354": {
+            "image_paths": [
+                "./Anguli_10K/6/404.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "355": {
+            "image_paths": [
+                "./Anguli_10K/1/617.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "356": {
+            "image_paths": [
+                "./Anguli_10K/5/280.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "357": {
+            "image_paths": [
+                "./Anguli_10K/6/425.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "358": {
+            "image_paths": [
+                "./Anguli_10K/1/494.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "359": {
+            "image_paths": [
+                "./Anguli_10K/2/774.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "360": {
+            "image_paths": [
+                "./Anguli_10K/7/537.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "361": {
+            "image_paths": [
+                "./Anguli_10K/5/343.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "362": {
+            "image_paths": [
+                "./Anguli_10K/5/687.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "363": {
+            "image_paths": [
+                "./Anguli_10K/3/999.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "364": {
+            "image_paths": [
+                "./Anguli_10K/6/128.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "365": {
+            "image_paths": [
+                "./Anguli_10K/1/622.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "366": {
+            "image_paths": [
+                "./Anguli_10K/9/936.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "367": {
+            "image_paths": [
+                "./Anguli_10K/7/144.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "368": {
+            "image_paths": [
+                "./Anguli_10K/8/240.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "369": {
+            "image_paths": [
+                "./Anguli_10K/9/905.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "370": {
+            "image_paths": [
+                "./Anguli_10K/2/322.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "371": {
+            "image_paths": [
+                "./Anguli_10K/4/675.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "372": {
+            "image_paths": [
+                "./Anguli_10K/9/535.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "373": {
+            "image_paths": [
+                "./Anguli_10K/4/951.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "374": {
+            "image_paths": [
+                "./Anguli_10K/9/927.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "375": {
+            "image_paths": [
+                "./Anguli_10K/10/966.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "376": {
+            "image_paths": [
+                "./Anguli_10K/8/317.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "377": {
+            "image_paths": [
+                "./Anguli_10K/6/63.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "378": {
+            "image_paths": [
+                "./Anguli_10K/8/861.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "379": {
+            "image_paths": [
+                "./Anguli_10K/1/388.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "380": {
+            "image_paths": [
+                "./Anguli_10K/2/709.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "381": {
+            "image_paths": [
+                "./Anguli_10K/4/661.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "382": {
+            "image_paths": [
+                "./Anguli_10K/4/953.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "383": {
+            "image_paths": [
+                "./Anguli_10K/8/394.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "384": {
+            "image_paths": [
+                "./Anguli_10K/3/401.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "385": {
+            "image_paths": [
+                "./Anguli_10K/5/629.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "386": {
+            "image_paths": [
+                "./Anguli_10K/1/324.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "387": {
+            "image_paths": [
+                "./Anguli_10K/3/975.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "388": {
+            "image_paths": [
+                "./Anguli_10K/6/666.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "389": {
+            "image_paths": [
+                "./Anguli_10K/5/591.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "390": {
+            "image_paths": [
+                "./Anguli_10K/1/13.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "391": {
+            "image_paths": [
+                "./Anguli_10K/8/424.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "392": {
+            "image_paths": [
+                "./Anguli_10K/10/560.jpg"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "393": {
+            "image_paths": [
+                "./Anguli_10K/9/384.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint shown",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "394": {
+            "image_paths": [
+                "./Anguli_10K/1/133.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "395": {
+            "image_paths": [
+                "./Anguli_10K/4/836.jpg"
+            ],
+            "question_text": "Identify the correct classification of the fingerprint pattern shown in the image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "396": {
+            "image_paths": [
+                "./Anguli_10K/3/517.jpg"
+            ],
+            "question_text": "What is the appropriate pattern classification for the fingerprint?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "397": {
+            "image_paths": [
+                "./Anguli_10K/10/783.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "398": {
+            "image_paths": [
+                "./Anguli_10K/2/372.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the image?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "399": {
+            "image_paths": [
+                "./Anguli_10K/3/75.jpg"
+            ],
+            "question_text": "This fingerprint belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "400": {
+            "image_paths": [
+                "./Anguli_10K/8/354.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint displayed?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "401": {
+            "image_paths": [
+                "./Anguli_10K/4/993.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "402": {
+            "image_paths": [
+                "./Anguli_10K/8/212.jpg"
+            ],
+            "question_text": "Which of the following known fingerprint patterns does this image resemble?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "403": {
+            "image_paths": [
+                "./Anguli_10K/3/127.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "404": {
+            "image_paths": [
+                "./Anguli_10K/7/943.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "405": {
+            "image_paths": [
+                "./Anguli_10K/3/133.jpg"
+            ],
+            "question_text": "Can you identify the pattern type in this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "406": {
+            "image_paths": [
+                "./Anguli_10K/9/689.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        }
+    }
+}

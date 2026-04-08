@@ -1,0 +1,5640 @@
+{
+    "category": "misc",
+    "sub-category": "sensor_classification",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "",
+    "postpend_text": "Please think step by step and provide your reasoning in brief before giving the final answer. Include the final correct answer option e.g., A, B, C, D at the end of your answer.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/104_1.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "2": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/101_7.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "3": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/102_6.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "4": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/104_6.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "5": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/104_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "6": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/102_5.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "7": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/110_2.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "8": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/101_7.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "9": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/102_2.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "10": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/108_8.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "11": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/106_6.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "12": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/106_7.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "13": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/105_3.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "14": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/102_1.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "15": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/105_2.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "16": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_7.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "17": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/104_2.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "18": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/102_8.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "19": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/110_1.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "20": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/106_6.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "21": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/106_8.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "22": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/103_4.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "23": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/110_4.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "24": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/104_7.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "25": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/103_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "26": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/109_7.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "27": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/102_3.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "28": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/106_2.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "29": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/110_6.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "30": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/110_2.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "31": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/103_1.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "32": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_5.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "33": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/104_2.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "34": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/103_7.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "35": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/103_3.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "36": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/109_6.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "37": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/105_1.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "38": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/107_8.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "39": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_8.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "40": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/102_8.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "41": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_4.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "42": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/105_1.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "43": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/108_6.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "44": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/103_1.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "45": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/110_5.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "46": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/109_3.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "47": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/101_6.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "48": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/105_7.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "49": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/108_4.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "50": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/108_5.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "51": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/106_5.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "52": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/104_3.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "53": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/106_8.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "54": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/105_2.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "55": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/109_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "56": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/107_2.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "57": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/105_4.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "58": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB3_B/108_4.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "59": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/110_2.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "60": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/108_1.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "61": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/102_8.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "62": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/106_7.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "63": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/106_1.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "64": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/109_4.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "65": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/103_6.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "66": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB1_B/109_5.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "67": {
+            "image_paths": [
+                "./Datasets/FVC2000/DB2_B/104_5.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "68": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/104_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "69": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/101_7.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "70": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/102_6.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "71": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/104_6.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "72": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/104_1.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "73": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/102_5.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "74": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/110_2.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "75": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/101_7.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "76": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/102_2.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "77": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/108_8.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "78": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/106_6.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "79": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/106_7.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "80": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/105_3.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "81": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/102_1.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "82": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/105_2.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "83": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_7.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "84": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/104_2.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "85": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/102_8.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "86": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/110_1.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "87": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/106_6.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "88": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/106_8.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "89": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/103_4.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "90": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/110_4.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "91": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/104_7.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "92": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/103_1.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "93": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/109_7.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "94": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/102_3.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "95": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/106_2.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "96": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/110_6.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "97": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/110_2.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "98": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/103_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "99": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_5.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "100": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/104_2.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "101": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/103_7.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "102": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/103_3.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "103": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/109_6.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "104": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/105_1.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "105": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/107_8.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "106": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_8.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "107": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/102_8.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "108": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_4.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "109": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/105_1.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "110": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/108_6.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "111": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/103_1.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "112": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/110_5.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "113": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/109_3.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "114": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/101_6.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "115": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/105_7.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "116": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/108_4.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "117": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/108_5.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "118": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/106_5.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "119": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/104_3.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "120": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/106_8.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "121": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/105_2.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "122": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/109_1.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "123": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/107_2.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "124": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/105_4.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "125": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB3_B/108_4.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "126": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/110_2.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "127": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/108_1.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "128": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/102_8.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "129": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/106_7.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "130": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/106_1.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "131": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/109_4.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "132": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/103_6.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "133": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB1_B/109_5.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "134": {
+            "image_paths": [
+                "./Datasets/FVC2002/DB2_B/104_5.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "135": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/104_1.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "136": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/101_7.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "137": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/102_6.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "138": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/104_6.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "139": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/104_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "140": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/102_5.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "141": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/110_2.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "142": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/101_7.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "143": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/102_2.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "144": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/108_8.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "145": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/106_6.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "146": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/106_7.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "147": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/105_3.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "148": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/102_1.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "149": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/105_2.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "150": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_7.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "151": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/104_2.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Thermal"
+        },
+        "152": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/102_8.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "153": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/110_1.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "154": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/106_6.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "155": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/106_8.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "156": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/103_4.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "157": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/110_4.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "158": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/104_7.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "159": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/103_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "160": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/109_7.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "161": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/102_3.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "162": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/106_2.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "163": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/110_6.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Thermal"
+        },
+        "164": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/110_2.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "165": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/103_1.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "166": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_5.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "167": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/104_2.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "168": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/103_7.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "169": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/103_3.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "170": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/109_6.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "171": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/105_1.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "172": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/107_8.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "173": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_8.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "174": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/102_8.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "175": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_4.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "176": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/105_1.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "177": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/108_6.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "178": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/103_1.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "179": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/110_5.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "180": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/109_3.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "181": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/101_6.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "182": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/105_7.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "183": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/108_4.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "184": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/108_5.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "185": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/106_5.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Thermal"
+        },
+        "186": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/104_3.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "187": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/106_8.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "188": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/105_2.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "189": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/109_1.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "190": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/107_2.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Thermal"
+        },
+        "191": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/105_4.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "192": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB3_B/108_4.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "193": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/110_2.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "194": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/108_1.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "195": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/102_8.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "196": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/106_7.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "197": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/106_1.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "198": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/109_4.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "199": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/103_6.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "200": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB1_B/109_5.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "201": {
+            "image_paths": [
+                "./Datasets/FVC2004/DB2_B/104_5.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "202": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002246_01_dryrun-B_500_roll_08.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "203": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002269_01_dryrun-D_500_plain_09.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "204": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002239_01_dryrun-H_500_slap_01.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "205": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002237_01_dryrun-M_500_plain_05.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "206": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002229_01_dryrun-C_500_slap_02.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "207": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002241_01_dryrun-E_500_plain_10.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "208": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002239_01_dryrun-B_500_roll_03.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "209": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-L/500/plain/png/00002225_01_dryrun-L_500_plain_04.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "210": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002246_01_dryrun-B_500_roll_06.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "211": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002267_01_dryrun-N_500_plain_02.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "212": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-L/500/plain/png/00002227_01_dryrun-L_500_plain_03.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "213": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002234_01_dryrun-C_500_slap_04.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "214": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002263_01_dryrun-D_500_plain_07.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "215": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002239_01_dryrun-E_500_plain_08.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "216": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002264_01_dryrun-D_500_plain_04.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "217": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002269_01_dryrun-A_500_roll_10.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "218": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002266_01_dryrun-M_500_plain_01.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "219": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002258_01_dryrun-M_500_plain_04.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "220": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002264_01_dryrun-J_500_plain_05.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "221": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002225_01_dryrun-H_500_slap_01.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "222": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002244_01_dryrun-J_500_plain_03.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "223": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002264_01_dryrun-E_500_plain_10.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "224": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002267_01_dryrun-E_500_plain_01.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "225": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002266_01_dryrun-N_500_plain_09.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "226": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002228_01_dryrun-J_500_plain_04.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "227": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002225_01_dryrun-H_500_slap_05.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "228": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002264_01_dryrun-N_500_plain_04.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "229": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002246_01_dryrun-N_500_plain_05.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "230": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002266_01_dryrun-N_500_plain_03.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "231": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002266_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "232": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002223_01_dryrun-C_500_slap_07.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "233": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002227_01_dryrun-G_500_slap_02.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "234": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002244_01_dryrun-K_500_slap_02.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "235": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002239_01_dryrun-H_500_slap_10.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "236": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002234_01_dryrun-M_500_plain_02.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "237": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002260_01_dryrun-M_500_plain_05.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "238": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002241_01_dryrun-D_500_plain_05.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "239": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002234_01_dryrun-G_500_slap_05.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "240": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-G/500/slap-segmented/png/00002237_01_dryrun-G_500_slap_06.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "241": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002236_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "242": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002267_01_dryrun-B_500_roll_01.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "243": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-N/500/plain/png/00002267_01_dryrun-N_500_plain_08.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "244": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-L/500/plain/png/00002263_01_dryrun-L_500_plain_05.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "245": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002229_01_dryrun-E_500_plain_02.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "246": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002269_01_dryrun-H_500_slap_01.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "247": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002227_01_dryrun-E_500_plain_09.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "248": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002260_01_dryrun-A_500_roll_06.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "249": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002263_01_dryrun-A_500_roll_05.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "250": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-B/500/roll/png/00002234_01_dryrun-B_500_roll_09.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "251": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-C/500/slap-segmented/png/00002225_01_dryrun-C_500_slap_06.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "252": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002236_01_dryrun-E_500_plain_03.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "253": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002236_01_dryrun-M_500_plain_02.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "254": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002241_01_dryrun-D_500_plain_07.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "255": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002229_01_dryrun-D_500_plain_09.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "256": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002260_01_dryrun-A_500_roll_09.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "257": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-E/500/plain/png/00002247_01_dryrun-E_500_plain_08.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "258": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002247_01_dryrun-H_500_slap_06.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "259": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-D/500/plain/png/00002266_01_dryrun-D_500_plain_04.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "260": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002254_01_dryrun-M_500_plain_03.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "261": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002234_01_dryrun-K_500_slap_03.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "262": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-M/500/plain/png/00002243_01_dryrun-M_500_plain_04.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "263": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-F/500/slap-segmented/png/00002267_01_dryrun-F_500_slap_06.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "264": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-J/500/plain/png/00002260_01_dryrun-J_500_plain_06.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "265": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002228_01_dryrun-A_500_roll_03.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "266": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-K/500/slap-segmented/png/00002223_01_dryrun-K_500_slap_04.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "267": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-A/500/roll/png/00002269_01_dryrun-A_500_roll_04.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "268": {
+            "image_paths": [
+                "./NISTSD301a/friction-ridge/dryrun-H/500/slap-segmented/png/00002229_01_dryrun-H_500_slap_02.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "269": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002359_M_500_plain_04.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "270": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002364_M_500_plain_08.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "271": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002624_M_500_plain_07.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "272": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002439_L_500_plain_04.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "273": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002584_K_500_plain_07.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "274": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002593_M_500_plain_04.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "275": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002447_L_500_plain_10.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "276": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002610_K_500_plain_09.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "277": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/P/500/plain/png/00002338_P_500_plain_03.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "278": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/P/500/plain/png/00002351_P_500_plain_05.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "279": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002434_L_500_plain_01.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "280": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002645_K_500_plain_10.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "281": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002449_M_500_plain_03.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "282": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002546_M_500_plain_10.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "283": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002454_M_500_plain_05.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "284": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002349_L_500_plain_09.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "285": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002342_L_500_plain_05.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "286": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002611_L_500_plain_05.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "287": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002574_M_500_plain_08.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "288": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002412_L_500_plain_07.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "289": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002510_L_500_plain_09.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "290": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002394_L_500_plain_03.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "291": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002535_M_500_plain_07.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "292": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002523_K_500_plain_10.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "293": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002303_M_500_plain_05.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "294": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002554_M_500_plain_08.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "295": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002571_K_500_plain_09.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "296": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002500_L_500_plain_08.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "297": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002624_K_500_plain_08.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "298": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002630_K_500_plain_03.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "299": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002514_L_500_plain_02.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "300": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002504_L_500_plain_09.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "301": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002362_L_500_plain_10.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "302": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002626_M_500_plain_09.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "303": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002304_L_500_plain_01.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "304": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002534_M_500_plain_04.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "305": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002612_K_500_plain_02.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "306": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002405_L_500_plain_02.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "307": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002376_L_500_plain_07.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "308": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002616_M_500_plain_07.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "309": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002434_M_500_plain_01.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "310": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002478_M_500_plain_06.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "311": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002407_M_500_plain_08.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "312": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002535_M_500_plain_10.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "313": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002626_L_500_plain_06.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "314": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002426_L_500_plain_04.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "315": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002351_L_500_plain_10.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "316": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002606_M_500_plain_06.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "317": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002327_L_500_plain_08.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "318": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002514_M_500_plain_10.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "319": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002449_L_500_plain_03.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "320": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002534_M_500_plain_10.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "321": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002388_M_500_plain_08.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "322": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002574_K_500_plain_04.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "323": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002625_L_500_plain_08.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "324": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002314_L_500_plain_10.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "325": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002615_M_500_plain_10.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "326": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002489_M_500_plain_07.png"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "327": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/K/500/plain/png/00002649_K_500_plain_08.png"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "328": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002574_M_500_plain_04.png"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Capacitive"
+        },
+        "329": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002326_M_500_plain_03.png"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "330": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002463_L_500_plain_02.png"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "331": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002412_L_500_plain_06.png"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "332": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002426_L_500_plain_06.png"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "333": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002484_M_500_plain_09.png"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "334": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/M/500/plain/png/00002621_M_500_plain_07.png"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "335": {
+            "image_paths": [
+                "./NISTSD302d/auxiliary/flat/L/500/plain/png/00002376_L_500_plain_06.png"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "336": {
+            "image_paths": [
+                "./GenPrint/10K/8629/8629_10_average quality_slap_Morpho_FTIR optical.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "337": {
+            "image_paths": [
+                "./GenPrint/10K/2722/2722_9_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "338": {
+            "image_paths": [
+                "./GenPrint/10K/6056/6056_5_average quality_slap_Zvetco_capacitive.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "339": {
+            "image_paths": [
+                "./GenPrint/10K/7672/7672_10_average quality_slap_Desktop Scanner_FTIR optical.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "340": {
+            "image_paths": [
+                "./GenPrint/10K/8215/8215_2_average quality_slap_TouchChip_capacitive.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "341": {
+            "image_paths": [
+                "./GenPrint/10K/6249/6249_3_average quality_contactless_MorphoWave_direct-view optical.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "342": {
+            "image_paths": [
+                "./GenPrint/10K/2363/2363_0_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "343": {
+            "image_paths": [
+                "./GenPrint/10K/5090/5090_7_average quality_rolled__capacitive.jpg"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "344": {
+            "image_paths": [
+                "./GenPrint/10K/6247/6247_13_average quality_slap_Next Biometrics_thermal.jpg"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "345": {
+            "image_paths": [
+                "./GenPrint/10K/4259/4259_13_average quality_slap_Desktop Scanner_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "346": {
+            "image_paths": [
+                "./GenPrint/10K/5761/5761_0_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "347": {
+            "image_paths": [
+                "./GenPrint/10K/8413/8413_0_average quality_contactless_ANDI_direct-view optical.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "348": {
+            "image_paths": [
+                "./GenPrint/10K/7977/7977_2_average quality_slap_TouchChip_capacitive.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "349": {
+            "image_paths": [
+                "./GenPrint/10K/3362/3362_0_average quality_slap_Suprema RealScanG1_FTIR optical.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "350": {
+            "image_paths": [
+                "./GenPrint/10K/1862/1862_9_average quality_slap_Secugen_FTIR optical.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "351": {
+            "image_paths": [
+                "./GenPrint/10K/3490/3490_0_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "352": {
+            "image_paths": [
+                "./GenPrint/10K/7338/7338_4_average quality_slap_TouchChip_capacitive.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "353": {
+            "image_paths": [
+                "./GenPrint/10K/8795/8795_7_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "354": {
+            "image_paths": [
+                "./GenPrint/10K/9545/9545_0_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "355": {
+            "image_paths": [
+                "./GenPrint/10K/5312/5312_0_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "356": {
+            "image_paths": [
+                "./GenPrint/10K/7635/7635_6_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "357": {
+            "image_paths": [
+                "./GenPrint/10K/2025/2025_8_average quality_slap_Desktop Scanner_FTIR optical.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "358": {
+            "image_paths": [
+                "./GenPrint/10K/260/260_14_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "359": {
+            "image_paths": [
+                "./GenPrint/10K/6492/6492_0_average quality_slap_Suprema RealScanG1_FTIR optical.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Can't Say",
+                "Capacitive"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "360": {
+            "image_paths": [
+                "./GenPrint/10K/2270/2270_0_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "361": {
+            "image_paths": [
+                "./GenPrint/10K/6689/6689_9_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "362": {
+            "image_paths": [
+                "./GenPrint/10K/8808/8808_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "363": {
+            "image_paths": [
+                "./GenPrint/10K/6570/6570_7_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "364": {
+            "image_paths": [
+                "./GenPrint/10K/275/275_2_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "365": {
+            "image_paths": [
+                "./GenPrint/10K/6970/6970_4_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "366": {
+            "image_paths": [
+                "./GenPrint/10K/1024/1024_0_average quality_contactless_ANDI_direct-view optical.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "367": {
+            "image_paths": [
+                "./GenPrint/10K/4902/4902_1_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "368": {
+            "image_paths": [
+                "./GenPrint/10K/9327/9327_12_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "369": {
+            "image_paths": [
+                "./GenPrint/10K/92/92_2_average quality_slap_Suprema RealScanG1_FTIR optical.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "370": {
+            "image_paths": [
+                "./GenPrint/10K/4874/4874_0_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "371": {
+            "image_paths": [
+                "./GenPrint/10K/7200/7200_3_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "372": {
+            "image_paths": [
+                "./GenPrint/10K/9242/9242_6_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "373": {
+            "image_paths": [
+                "./GenPrint/10K/4360/4360_5_average quality_rolled__capacitive.jpg"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Capacitive",
+                "Optical",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "374": {
+            "image_paths": [
+                "./GenPrint/10K/8585/8585_2_average quality_slap_TouchChip_capacitive.jpg"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Thermal",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "375": {
+            "image_paths": [
+                "./GenPrint/10K/4491/4491_14_average quality_slap_eNBioScan_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "376": {
+            "image_paths": [
+                "./GenPrint/10K/6410/6410_0_average quality_slap_Zvetco_capacitive.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "377": {
+            "image_paths": [
+                "./GenPrint/10K/606/606_4_average quality_rolled__capacitive.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "378": {
+            "image_paths": [
+                "./GenPrint/10K/9220/9220_0_average quality_contactless_ANDI_direct-view optical.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Capacitive",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "379": {
+            "image_paths": [
+                "./GenPrint/10K/6223/6223_0_average quality_slap_Zvetco_capacitive.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Capacitive"
+        },
+        "380": {
+            "image_paths": [
+                "./GenPrint/10K/5487/5487_0_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Thermal",
+                "Optical"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "381": {
+            "image_paths": [
+                "./GenPrint/10K/6410/6410_0_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "382": {
+            "image_paths": [
+                "./GenPrint/10K/4453/4453_4_average quality_rolled__capacitive.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "383": {
+            "image_paths": [
+                "./GenPrint/10K/249/249_7_average quality_contactless_ANDI_direct-view optical.jpg"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Capacitive",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "384": {
+            "image_paths": [
+                "./GenPrint/10K/603/603_14_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "385": {
+            "image_paths": [
+                "./GenPrint/10K/3412/3412_2_average quality_slap_Next Biometrics_thermal.jpg"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Thermal"
+        },
+        "386": {
+            "image_paths": [
+                "./GenPrint/10K/889/889_9_average quality_slap_Desktop Scanner_FTIR optical.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Thermal",
+                "Capacitive",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "387": {
+            "image_paths": [
+                "./GenPrint/10K/7256/7256_7_average quality_slap_Desktop Scanner_FTIR optical.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "388": {
+            "image_paths": [
+                "./GenPrint/10K/699/699_6_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "389": {
+            "image_paths": [
+                "./GenPrint/10K/2766/2766_6_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "390": {
+            "image_paths": [
+                "./GenPrint/10K/8464/8464_0_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Thermal",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Thermal"
+        },
+        "391": {
+            "image_paths": [
+                "./GenPrint/10K/8621/8621_0_average quality_slap_Next Biometrics_thermal.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "392": {
+            "image_paths": [
+                "./GenPrint/10K/8760/8760_0_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Can't Say",
+                "Optical",
+                "Capacitive",
+                "Thermal"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "393": {
+            "image_paths": [
+                "./GenPrint/10K/9142/9142_6_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Based on the fingerprint image, identify the acquisition sensor.",
+            "options": [
+                "Can't Say",
+                "Thermal",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Capacitive"
+        },
+        "394": {
+            "image_paths": [
+                "./GenPrint/10K/7805/7805_10_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the sensor used to capture the given fingerprint image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Optical",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "395": {
+            "image_paths": [
+                "./GenPrint/10K/9049/9049_7_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct sensor technology used to record the given fingerprint image.",
+            "options": [
+                "Optical",
+                "Can't Say",
+                "Thermal",
+                "Capacitive"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Optical"
+        },
+        "396": {
+            "image_paths": [
+                "./GenPrint/10K/1972/1972_6_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "From the fingerprint image shown, determine the sensor type used for acquisition.",
+            "options": [
+                "Capacitive",
+                "Can't Say",
+                "Optical",
+                "Thermal"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "397": {
+            "image_paths": [
+                "./GenPrint/10K/2999/2999_12_average quality_slap_Morpho_FTIR optical.jpg"
+            ],
+            "question_text": "What is the sensor type that captured this fingerprint?",
+            "options": [
+                "Thermal",
+                "Optical",
+                "Capacitive",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Optical"
+        },
+        "398": {
+            "image_paths": [
+                "./GenPrint/10K/6456/6456_6_average quality_slap_Next Biometrics_thermal.jpg"
+            ],
+            "question_text": "Determine the type of fingerprint sensor that produced the image shown.",
+            "options": [
+                "Optical",
+                "Capacitive",
+                "Can't Say",
+                "Thermal"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Thermal"
+        },
+        "399": {
+            "image_paths": [
+                "./GenPrint/10K/7583/7583_3_average quality_slap_SilkID_FTIR optical.jpg"
+            ],
+            "question_text": "Which fingerprint capture method corresponds to this image?",
+            "options": [
+                "Thermal",
+                "Can't Say",
+                "Optical",
+                "Capacitive"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Optical"
+        },
+        "400": {
+            "image_paths": [
+                "./GenPrint/10K/7957/7957_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Which type of sensor was used to capture this fingerprint image?",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        },
+        "401": {
+            "image_paths": [
+                "./GenPrint/10K/2906/2906_11_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "From the given fingerprint image, choose the correct sensor category.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Capacitive"
+        },
+        "402": {
+            "image_paths": [
+                "./GenPrint/10K/3451/3451_0_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the fingerprint sensor technology for the given image.",
+            "options": [
+                "Capacitive",
+                "Thermal",
+                "Can't Say",
+                "Optical"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Optical"
+        }
+    }
+}

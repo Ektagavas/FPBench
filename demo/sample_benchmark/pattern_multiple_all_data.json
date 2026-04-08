@@ -1,0 +1,47 @@
+{
+    "category": "fp_level1",
+    "sub-category": "pattern",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "multiple",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "./demo/sample_data/101_1.png",
+                "./demo/sample_data/106_2.png"
+            ],
+            "question_text": "Identify the image that contains a whorl fingerprint.",
+            "options": [
+                "Image 1",
+                "All of them",
+                "Image 2",
+                "None of them"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Image 2",
+            "question_type": "positive",
+            "target_label": "Whorl"
+        },
+        "2": {
+            "image_paths": [
+                "./demo/sample_data/101_1.png",
+                "./demo/sample_data/106_2.png",
+                "./demo/sample_data/101_5.png"
+            ],
+            "question_text": "In which image do you see the loop pattern?",
+            "options": [
+                "Image 2 and Image 3",
+                "None of them",
+                "Image 2",
+                "Image 1 and Image 3"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Image 1 and Image 3",
+            "question_type": "positive",
+            "target_label": "Loop"
+        }
+    }
+}

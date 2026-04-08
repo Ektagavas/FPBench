@@ -1,0 +1,2854 @@
+{
+    "category": "fp_level1",
+    "sub-category": "orientation",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "",
+    "postpend_text": "Please answer the question and provide only the correct option letter, e.g., A, B, C, D.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_8.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "2": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_7.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "3": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_2.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "4": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "5": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_2.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "6": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_7.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "7": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_3.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "8": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "9": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_5.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "10": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_1.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "11": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_3.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "12": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_5.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "13": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_3.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "14": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_1.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "15": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_5.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "16": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_8.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "17": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "18": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_6.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "19": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_8.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "20": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "21": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_4.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "22": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_4.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "23": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_7.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "24": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_4.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "25": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "26": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_6.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "27": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_2.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "28": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_2.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "29": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_2.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "30": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_8.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "31": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_7.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "32": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_2.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "33": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "34": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_2.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "35": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_7.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "36": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_3.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "37": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "38": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_5.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "39": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_1.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "40": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_3.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "41": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_5.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "42": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_3.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "43": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_1.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "44": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_5.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "45": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_8.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "46": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "47": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_6.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "48": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_8.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "49": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "50": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_4.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "51": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_4.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "52": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_7.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "53": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_4.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "54": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "55": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_6.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "56": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_2.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "57": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_2.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "58": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_2.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "59": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_8.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "60": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_7.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "61": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_2.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "62": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "63": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_2.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "64": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_7.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "65": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_3.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "66": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "67": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_5.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "68": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_1.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "69": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_3.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "70": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_5.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "71": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_3.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "72": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_1.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "73": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_5.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "74": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_8.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "75": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "76": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_6.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "77": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_8.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "78": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "79": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_4.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "80": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_4.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "81": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_7.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "82": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_4.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "83": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "84": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_6.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "85": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_2.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "86": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_2.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "87": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_2.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "88": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002359_M_500_plain_04.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "89": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002364_M_500_plain_08.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "90": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002624_M_500_plain_07.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "91": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002439_L_500_plain_04.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "92": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002584_K_500_plain_07.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "93": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002593_M_500_plain_04.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "94": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002447_L_500_plain_10.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "95": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002610_K_500_plain_09.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "96": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002338_P_500_plain_03.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "97": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002351_P_500_plain_05.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "98": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002434_L_500_plain_01.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "99": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002645_K_500_plain_10.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "100": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002449_M_500_plain_03.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "101": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002546_M_500_plain_10.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "102": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002454_M_500_plain_05.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "103": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002349_L_500_plain_09.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "104": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002342_L_500_plain_05.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "105": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002611_L_500_plain_05.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "106": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002574_M_500_plain_08.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "107": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002412_L_500_plain_07.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "108": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002510_L_500_plain_09.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "109": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002394_L_500_plain_03.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "110": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002535_M_500_plain_07.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "111": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002523_K_500_plain_10.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "112": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002303_M_500_plain_05.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "113": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002554_M_500_plain_08.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "114": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002571_K_500_plain_09.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "115": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002500_L_500_plain_08.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "116": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002624_K_500_plain_08.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "117": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002246_01_dryrun-B_500_roll_08.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "118": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002269_01_dryrun-N_500_plain_09.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "119": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002234_01_dryrun-G_500_slap_09.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "120": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002261_01_dryrun-K_500_slap_03.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "121": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002229_01_dryrun-C_500_slap_02.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "122": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002243_01_dryrun-D_500_plain_10.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "123": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002239_01_dryrun-B_500_roll_03.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "124": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002225_01_dryrun-K_500_slap_07.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "125": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002246_01_dryrun-B_500_roll_06.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "126": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002269_01_dryrun-M_500_plain_02.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "127": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002225_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "128": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002234_01_dryrun-C_500_slap_04.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "129": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002263_01_dryrun-N_500_plain_07.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "130": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002241_01_dryrun-D_500_plain_08.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "131": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002264_01_dryrun-N_500_plain_04.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "132": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002269_01_dryrun-A_500_roll_10.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "133": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002263_01_dryrun-L_500_plain_02.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "134": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002234_01_dryrun-L_500_plain_03.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "135": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-H_500_slap_05.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "136": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-F_500_slap_06.png"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "137": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002244_01_dryrun-H_500_slap_07.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "138": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-D_500_plain_10.png"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "139": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002269_01_dryrun-D_500_plain_01.png"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "140": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002267_01_dryrun-M_500_plain_09.png"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "141": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002228_01_dryrun-H_500_slap_03.png"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "142": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-F_500_slap_10.png"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "143": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-M_500_plain_04.png"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "144": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002246_01_dryrun-M_500_plain_05.png"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Can't Say",
+                "Loop",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "145": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002267_01_dryrun-M_500_plain_03.png"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "146": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/2170_0_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "147": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1271_0_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "148": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/3848_8_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "149": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9854_0_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "150": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8495_2_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "151": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/865_0_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "152": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1063_0_average quality_slap_Futronic_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "153": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9774_14_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "154": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9572_0_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Whorl",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "155": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8975_0_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "156": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8514_0_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "157": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9994_7_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "158": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/5242_0_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "159": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/2277_0_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "160": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8711_7_average quality_rolled_LIVETOUCH_capacitive.jpg"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        },
+        "161": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1948_0_average quality_slap_Digital Persona_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Arch"
+        },
+        "162": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9036_11_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "163": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/6347_0_average quality_slap_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "164": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/4151_9_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "165": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8678_0_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "166": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9134_3_average quality_slap_Suprema RealScanG1_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "167": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/2919_0_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "168": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/2215_1_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "169": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8269_0_average quality_swipe_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "170": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/2065_1_average quality_swipe_Eikon_capacitive.jpg"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "171": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8377_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "172": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/3576_8_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "173": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/9736_6_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "174": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/8034_5_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Arch"
+        },
+        "175": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/325.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Arch",
+                "Loop",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "176": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/714.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "177": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/757.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Whorl",
+                "Arch",
+                "Can't Say"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "178": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/767.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Loop"
+        },
+        "179": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/568.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "180": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/404.jpg"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "181": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/617.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Arch"
+        },
+        "182": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/280.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        },
+        "183": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/425.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "184": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/494.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "185": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/774.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Can't Say",
+                "Arch",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "186": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/537.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "187": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/343.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "188": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/687.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "189": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/999.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "190": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/128.jpg"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "191": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/622.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Whorl",
+                "Can't Say",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "192": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/936.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "193": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/144.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Loop",
+                "Arch",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "194": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/240.jpg"
+            ],
+            "question_text": "What is the fingerprint pattern visible in the fingerprint orientation flow image?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Loop"
+        },
+        "195": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/905.jpg"
+            ],
+            "question_text": "Determine the fingerprint pattern type presented in the given fingerprint orientation flow image.",
+            "options": [
+                "Whorl",
+                "Loop",
+                "Can't Say",
+                "Arch"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Whorl"
+        },
+        "196": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/322.jpg"
+            ],
+            "question_text": "Identify the pattern class in the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "197": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/675.jpg"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the fingerprint orientation flow image.",
+            "options": [
+                "Arch",
+                "Loop",
+                "Whorl",
+                "Can't Say"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "198": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/535.jpg"
+            ],
+            "question_text": "Choose the correct pattern classification for the fingerprint orientation flow image shown",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "199": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/951.jpg"
+            ],
+            "question_text": "Which of the following pattern best describes the fingerprint orientation flow image displayed?",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Whorl"
+        },
+        "200": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/927.jpg"
+            ],
+            "question_text": "This fingerprint orientation flow image belongs to which pattern category?",
+            "options": [
+                "Arch",
+                "Can't Say",
+                "Whorl",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "201": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/966.jpg"
+            ],
+            "question_text": "Based on the visual features, what fingerprint pattern is this?",
+            "options": [
+                "Loop",
+                "Arch",
+                "Can't Say",
+                "Whorl"
+            ],
+            "correct_answer_option": "A",
+            "answer": "Loop"
+        },
+        "202": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/317.jpg"
+            ],
+            "question_text": "Select the correct pattern class for this fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Arch",
+                "Loop",
+                "Whorl"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Whorl"
+        },
+        "203": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/63.jpg"
+            ],
+            "question_text": "Identify the pattern type of the given fingerprint orientation flow image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Arch",
+                "Loop"
+            ],
+            "correct_answer_option": "C",
+            "answer": "Arch"
+        }
+    }
+}

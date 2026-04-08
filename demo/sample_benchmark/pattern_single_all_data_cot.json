@@ -1,0 +1,40 @@
+{
+    "category": "fp_level1",
+    "sub-category": "pattern",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "",
+    "postpend_text": "Please think step by step and provide your reasoning in brief before giving the final answer. Include the final correct answer option e.g., A, B, C, D at the end of your answer.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "./demo/sample_data/101_5.png"
+            ],
+            "question_text": "Assign the correct fingerprint pattern label to the image.",
+            "options": [
+                "Arch",
+                "Whorl",
+                "Can't Say",
+                "Loop"
+            ],
+            "correct_answer_option": "D",
+            "answer": "Loop"
+        },
+        "2": {
+            "image_paths": [
+                "./demo/sample_data/106_2.png"
+            ],
+            "question_text": "Choose the correct fingerprint pattern category for this image.",
+            "options": [
+                "Can't Say",
+                "Whorl",
+                "Loop",
+                "Arch"
+            ],
+            "correct_answer_option": "B",
+            "answer": "Whorl"
+        }
+    }
+}

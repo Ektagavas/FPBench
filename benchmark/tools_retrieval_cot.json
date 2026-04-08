@@ -1,0 +1,1413 @@
+{
+    "category": "tools_use",
+    "sub-category": "tool_retrieval",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "This task involves selecting the correct sequence of API function calls from a set of multiple-choice options based on a given question. Each question describes a specific use case scenario that demands a tailored sequence of API functions to achieve desired results, such as identity verification, image enhancement, or fingerprint verification etc.",
+    "context": "Ignore the black image provided.\nPattern Classification:\napi_name: api_1\nclassify_pattern\nDescription: Predicts the pattern class in a given fingerprint image.\nInput: np.ndarray or str - The input fingerprint image.\nOutput: str - The predicted pattern ('loop' or 'whorl' or 'arch').\nget_pattern_probabilities\nDescription: Returns probabilities for each pattern class. \nInput: np.ndarray - The input fingerprint image. \nOutput: dict - Probabilities for each pattern class.\nmatch_pattern\nDescription: Checks whether the fingerprint pair has the same pattern class\nInput: Two str - Two fingerprint pattern classes\nOutput: bool - True if fingerprint patterns match, False otherwise.\nMatching:\napi_name: api_2\nextract_features \nDescription: Extracts fingerprint features from fingerprint images. \nInput: np.ndarray or str - The input fingerprint image. \nOutput: np.ndarray - Feature vector for the fingerprint. \ncompare_features\nDescription: Compares two fingerprint feature vectors for a match. \nInput: Two np.ndarray - The feature vectors of two fingerprint images. \nOutput: bool - True if fingerprints match, False otherwise.\nget_matching_score\nDescription: Get matching score for given fingerprint image pair\nInput: Two str or nd.np.array -  Input fingerprint image pair\nOutput: int - Matching score\nidentify_fingerprint\nDescription: Identifies a fingerprint impression by comparing a feature vector to a database. \nInput: np.ndarray features and dict database - Feature vector to identify and known features. \nOutput: str or None - Label of the identified subject/impression/source, or None if no match.\nMinutiae:\napi_name: api_3\nextract_minutiae\nDescription: Extracts fingerprint minutiae from given fingerprint image.\nInput: np.ndarray or str - The input fingerprint image. \nOutput: np.ndarray - List of x, y, theta, type of minutiae points.\nplot_minutiae_overlay\nDescription: Plot minutiae map over fingerprint image.\nInput: str or np.ndarray - Input fingerprint image.\nOutput: np.ndarray - Overlaid minutiae over fingerprint as image.\nget_minutiae_count\nDescription: Get count of total minutiae, ridge endings and ridge bifurcations from minutiae points list. \nInput: np.ndarray - List of minutiae locations (x, y, theta, type).\nOutput: int, int and int - Number of minutiae, ridge endings and ridge bifurcations.\nOrientation:\napi_name: api_4\nget_orientation_angles\nDescription: Get orientation angles for every k x k block size in input fingerprint image.\nInput: str or np.ndarray and int - Input fingerprint image and block size k.\nOutput: np.ndarray - 2D array of orientation angles.\nplot_orientation_map\nDescription: Draw orientation flow map on fingerprint image.\nInput: str or np.ndarray and np.ndarray - Input fingerprint image and orientation angles\nOutput: np.ndarray - Output image of orientation flow map overlaid on fingerprint.\nSensor Classification:\napi_name: api_5\npredict_sensor_type\nDescription: Predict the type of sensor used to capture the fingerprint image.\nInput: str or np.ndarray - Input fingerprint image.\nOutput: str - Predicted sensor type ('optical' or 'thermal' or 'capacitive' or 'none' )\nget_sensor_probabilities\nDescription: Returns probability values for each sensor type.\nInput: str or np.ndarray - Input fingerprint image.\nOutput: dict - Probabilities for each sensor type 'optical', 'thermal' and 'capacitive'.\nReal Vs Synthetic Classification:\napi_name: api_6\npredict_real_synthetic\nDescription: Predict if the input fingerprint image is real or synthetically generated.\nInput: str or np.ndarray - Input fingerprint image\nOutput: str - The predicted class ('real' or 'synthetic').\nget_real_probabilities\nDescription: Returns probabilities for each class.\nInput: str or np.ndarray - Input fingerprint image. \nOutput: dict - Probabilities for 'real' and 'synthetic' classes.\ndetect_bonafide\nDescription: Detect if the given fingerprint is bonafide and not spoof\nInput: np.ndarray - Input fingerprint image\nOutput: bool - True if bonafide, False otherwise\nACE-V Analysis:\napi_name: api_7\nprepare_ace_sheet\nDescription: Prepare ACE-V style sheet with desired fields from a pair of fingerprint images.\nInput: Input fingerprint image.\nOutput: dict - Output ACE-V sheet.\ncompare_fingerprint_ace\nDescription: Get 'individualization', 'exclusion' decision from the given ACE-V sheet.\nInput: dict - ACE sheet.\nOutput: str - Decision for comparison 'individualization' or 'exclusion'.\nFingerprint Enhancement:\napi_name: api_8\nenhance_image\nDescription: Enhance given fingerprint image for feature extraction.\nInput: str or np.ndarray - Input fingerprint image.\nOutput: np.ndarray - Enhanced fingerprint image.\nFingerprint Segmentation:\napi_name: api_9\nsegment_palm_print\nDescription: Segment the given palm print image into five fingerprint segments.\nInput: str or np.ndarray -  Input palm print image.\nOutput: Five np.ndarray - Five fingerprint images, one for each fingerprint, returns None if no fingerprint detected for a finger.\n\nFingerprint Quality:\napi_name: api_10\nget_quality_score\nDescription: Get quality score for the given fingerprint image\nInput: str or np.ndarray -  Input fingerprint image.\nOutput: int - Integer quality score value from 1 to 100 \n",
+    "postpend_text": "Please think step by step and provide your reasoning in brief before giving the final answer. Include the final correct answer option e.g., A, B, C, D at the end of your answer.",
+    "questions": {
+        "1": {
+            "question_text": "At a border checkpoint, a fingerprint scanner captures a smudged image of a traveler's thumb. The system must confirm the print is authentic before identifying the person against the database. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_2-identify_fingerprint, api_6-detect_bonafide, api_2-extract_features, api_8-enhance_image",
+                "api_2-identify_fingerprint, api_2-extract_features, api_6-detect_bonafide, api_8-enhance_image",
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-identify_fingerprint, api_2-extract_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "2": {
+            "question_text": "A forensic analyst receives a palm print image for investigation. The print needs to be separated into individual finger impressions and each one identified in the existing fingerprint database. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-identify_fingerprint, api_2-extract_features",
+                "api_2-identify_fingerprint, api_2-extract_features, api_8-enhance_image, api_9-segment_palm_print",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features, api_9-segment_palm_print",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "3": {
+            "question_text": "An examiner is preparing a detailed fingerprint report. They need to count ridge endings and bifurcations, and visualize minutiae for inclusion in the report before comparing prints. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_2-compare_features, api_3-plot_minutiae_overlay, api_3-get_minutiae_count, api_3-extract_minutiae",
+                "api_3-extract_minutiae, api_3-get_minutiae_count, api_3-plot_minutiae_overlay, api_2-compare_features",
+                "api_5-get_sensor_probabilities, api_3-get_minutiae_count, api_3-plot_minutiae_overlay, api_2-compare_features",
+                "api_2-extract_features, api_3-get_minutiae_count, api_3-plot_minutiae_overlay, api_2-compare_features"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_3-extract_minutiae, api_3-get_minutiae_count, api_3-plot_minutiae_overlay, api_2-compare_features"
+        },
+        "4": {
+            "question_text": "A researcher is studying ridge flow directions across fingerprint blocks to understand pattern consistency before extracting minutiae for structural analysis. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_4-get_orientation_angles, api_2-get_matching_score, api_3-extract_minutiae",
+                "api_3-extract_minutiae, api_4-plot_orientation_map, api_4-get_orientation_angles",
+                "api_4-get_orientation_angles, api_7-compare_fingerprint_ace, api_3-extract_minutiae",
+                "api_4-get_orientation_angles, api_4-plot_orientation_map, api_3-extract_minutiae"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_4-get_orientation_angles, api_4-plot_orientation_map, api_3-extract_minutiae"
+        },
+        "5": {
+            "question_text": "A forensic expert follows the ACE-V process by preparing an ACE sheet from two enhanced fingerprint images and then determining whether they originate from the same source. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_7-compare_fingerprint_ace, api_7-prepare_ace_sheet, api_8-enhance_image",
+                "api_8-enhance_image, api_3-plot_minutiae_overlay, api_7-compare_fingerprint_ace",
+                "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_7-prepare_ace_sheet, api_8-enhance_image, api_3-get_minutiae_count"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+        },
+        "6": {
+            "question_text": "In a biometric research lab, a system must determine if a fingerprint sample is synthetically generated before extracting its features for further evaluation. The sample must be enhanced first. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_4-get_orientation_angles, api_6-get_real_probabilities, api_2-extract_features",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features",
+                "api_2-extract_features, api_6-get_real_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_1-get_pattern_probabilities, api_2-extract_features"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features"
+        },
+        "7": {
+            "question_text": "For a biometric project, a student needs to do fingerprint enhancement and detailed feature extraction before being searched across a fingerprint gallery for potential matches. What is the appropriate API function sequence? ",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-extract_minutiae, api_2-extract_features, api_2-get_matching_score",
+                "api_8-enhance_image, api_3-extract_minutiae, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_3-extract_minutiae, api_1-get_pattern_probabilities, api_2-identify_fingerprint",
+                "api_3-extract_minutiae, api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "8": {
+            "question_text": "A security system installed in a government office analyzes the fingerprint sensor type used, identifies the pattern of the print, and estimates probabilities for each class. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_5-predict_sensor_type, api_1-classify_pattern, api_8-enhance_image",
+                "api_5-predict_sensor_type, api_1-classify_pattern, api_1-match_pattern",
+                "api_5-predict_sensor_type, api_1-get_pattern_probabilities, api_1-classify_pattern",
+                "api_1-get_pattern_probabilities, api_1-match_pattern, api_5-predict_sensor_type"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_5-predict_sensor_type, api_1-classify_pattern, api_1-match_pattern"
+        },
+        "9": {
+            "question_text": "A mobile authentication app records a fingerprint and wants to enhance it before verifying it with saved fingerprint impression. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-compare_features, api_2-extract_features",
+                "api_8-enhance_image, api_3-plot_minutiae_overlay, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_2-compare_features, api_2-extract_features, api_8-enhance_image"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-compare_features"
+        },
+        "10": {
+            "question_text": "During a forensic investigation, two fingerprint images recovered from a crime scene need to be compared for a possible match along with the matching score, after quality improvement. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_4-plot_orientation_map, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-get_matching_score, api_6-get_real_probabilities",
+                "api_1-get_pattern_probabilities, api_2-extract_features, api_2-get_matching_score, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-get_matching_score, api_2-compare_features"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-get_matching_score, api_2-compare_features"
+        },
+        "11": {
+            "question_text": "A forensic analyst receives a palm print image for investigation. The print needs to be separated into individual finger impressions and the first print needs to be checked in the existing fingerprint database only if the quality exceeds a threshold. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_10-get_quality_score, api_2-identify_fingerprint, api_2-extract_features, api_8-enhance_image, api_9-segment_palm_print",
+                "api_2-extract_features, api_8-enhance_image, api_9-segment_palm_print, api_2-identify_fingerprint, api_10-get_quality_score,",
+                "api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score, api_2-extract_features, api_2-identify_fingerprint",
+                "api_10-get_quality_score, api_8-enhance_image, api_9-segment_palm_print, api_2-extract_features, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "12": {
+            "question_text": "A system is designed to verify a user's identity against a stored feature vector. The system must first enhance the user's print if it's real (not synthetic) before verifying with the stored one. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_6-predict_real_synthetic, api_2-compare_features",
+                "api_6-predict_real_synthetic, api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-get_matching_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-compare_features"
+        },
+        "13": {
+            "question_text": "A researcher is studying fingerprint patterns. They want to take a palm print, segment out the index finger and then classify its enhanced version to determine its pattern class. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern",
+                "api_8-enhance_image, api_9-segment_palm_print, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-get_pattern_probabilities",
+                "api_9-segment_palm_print, api_1-classify_pattern, api_8-enhance_image"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern"
+        },
+        "14": {
+            "question_text": "A quality control process for a new fingerprint scanner involves several checks. Given a test image ('test_print.bmp'), the system must enhance it, then predict the sensor type, and also predict if the print is real or synthetic. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-predict_sensor_type, api_6-predict_real_synthetic",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_6-get_real_probabilities",
+                "api_5-predict_sensor_type, api_6-predict_real_synthetic, api_8-enhance_image",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_5-predict_sensor_type, api_6-predict_real_synthetic"
+        },
+        "15": {
+            "question_text": "As part of patient admission process, a hospital reception encountered a smudged scan; it should enhance image details and if the print is bonafide, need to search the patient in the database. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint, api_6-detect_bonafide",
+                "api_2-extract_features, api_2-identify_fingerprint, api_6-detect_bonafide, api_8-enhance_image",
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-identify_fingerprint, api_2-extract_features"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "16": {
+            "question_text": "As part of onboarding process at a firm, the system receives the employee's palmprint and after enhancement, saves the individual finger features in the database for future reference. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_9-segment_palm_print",
+                "api_2-extract_features, api_9-segment_palm_print",
+                "api_9-segment_palm_print, api_2-extract_features, api_8-enhance_image",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+        },
+        "17": {
+            "question_text": "During a field test, a border watchlist process splits incoming palm scans, enhances each finger image, and matches the pattern class with the saved suspect print. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern, api_1-match_pattern",
+                "api_1-classify_pattern, api_1-match_pattern, api_9-segment_palm_print, api_8-enhance_image",
+                "api_1-classify_pattern, api_9-segment_palm_print, api_8-enhance_image, api_1-match_pattern",
+                "api_8-enhance_image, api_1-classify_pattern, api_1-match_pattern, api_9-segment_palm_print"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern, api_1-match_pattern"
+        },
+        "18": {
+            "question_text": "In routine operations, a law-enforcement operator compares two suspect captures from different devices; they want sensor metadata, matching score, and an ACE-V consolidated decision. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_3-get_minutiae_count, api_9-segment_palm_print, api_1-classify_pattern",
+                "api_5-predict_sensor_type, api_2-get_matching_score, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_7-prepare_ace_sheet",
+                "api_5-get_sensor_probabilities, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_5-predict_sensor_type, api_2-get_matching_score, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+        },
+        "19": {
+            "question_text": "A secure facility wants to produce visual evidence for fingerprint enrollment of its employee: an orientation flow map, a minutiae overlay, and a stored feature template for future matches. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_4-plot_orientation_map, api_3-plot_minutiae_overlay, api_2-extract_features",
+                "api_4-get_orientation_angles, api_3-extract_minutiae, api_2-extract_features",
+                "api_4-get_orientation_angles, api_4-plot_orientation_map, api_3-plot_minutiae_overlay, api_2-extract_features",
+                "api_4-get_orientation_angles, api_3-plot_minutiae_overlay, api_2-extract_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_4-get_orientation_angles, api_4-plot_orientation_map, api_3-plot_minutiae_overlay, api_2-extract_features"
+        },
+        "20": {
+            "question_text": "For system integration, a test biometric fingerprint device received prints from a software. The integration test needs to log sensor type, validate print authenticity, and store the feature template if valid (real and bonafide). Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_5-get_sensor_probabilities, api_9-segment_palm_print, api_3-extract_minutiae",
+                "api_5-predict_sensor_type, api_3-extract_minutiae, api_2-extract_features",
+                "api_5-predict_sensor_type, api_6-predict_real_synthetic, api_6-detect_bonafide, api_2-extract_features",
+                "api_8-enhance_image, api_9-segment_palm_print, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_5-predict_sensor_type, api_6-predict_real_synthetic, api_6-detect_bonafide, api_2-extract_features"
+        },
+        "21": {
+            "question_text": "An access-control system needs to segment a full-hand scan, enhance each finger crop, classify the patterns, and perform per-finger identity lookups. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern, api_2-identify_fingerprint",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_1-classify_pattern, api_2-extract_features, api_2-identify_fingerprint",
+                "api_9-segment_palm_print, api_2-extract_features, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "22": {
+            "question_text": "A research lab evaluating new fingerprint sensors collects hundreds of samples. The system analyzes the sensor type, predicts pattern classes, and computes minutiae statistics for quality benchmarking. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_5-predict_sensor_type, api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_5-predict_sensor_type, api_1-classify_pattern, api_3-get_minutiae_count",
+                "api_5-predict_sensor_type, api_4-get_orientation_angles, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_5-predict_sensor_type, api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "23": {
+            "question_text": "During a security audit, a company revalidates stored fingerprint templates. Each image is enhanced, compared against the original record, and checked for consistency in minutiae count. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-compare_features, api_2-extract_features, api_3-extract_minutiae",
+                "api_2-compare_features, api_2-extract_features, api_3-extract_minutiae, api_3-get_minutiae_count, api_8-enhance_image",
+                "api_2-extract_features, api_2-compare_features, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_3-extract_minutiae, api_3-get_minutiae_count"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "24": {
+            "question_text": "A financial kiosk captures a customer's fingerprint for secure transactions. The print undergoes image enhancement. Features are matched against the bank's stored template, but only if print is bonafide. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-detect_bonafide, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_6-detect_bonafide",
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-compare_features"
+        },
+        "25": {
+            "question_text": "A police department upgrades its AFIS database. Old, low-quality fingerprints are segmented, enhanced, and minutiae extracted for reindexing. A pattern classification algorithm then assigns each print a class code to improve search efficiency. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_1-classify_pattern",
+                "api_8-enhance_image, api_3-extract_minutiae, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_3-extract_minutiae, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_1-classify_pattern"
+        },
+        "26": {
+            "question_text": "An immigration agency performs periodic revalidation of stored fingerprints. Each template is re-acquired, enhanced to correct image noise, and segmented for the ROI. Matching scores are compared against the old record to track template drift. The system also flags inconsistencies in ridge flow as potential identity anomalies. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_2-get_matching_score, api_4-get_orientation_angles",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-get_matching_score, api_4-get_orientation_angles",
+                "api_1-classify_pattern, api_8-enhance_image, api_2-get_matching_score, api_4-get_orientation_angles",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-get_matching_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-get_matching_score, api_4-get_orientation_angles"
+        },
+        "27": {
+            "question_text": "A factory uses fingerprint scanners for shift logging. The software pipeline includes bonafide detection to prevent proxy punches, enhancement for prints contaminated with grease. Finally, fingerprint verification confirms identity, and pattern classification aids audit tracking. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_2-compare_features, api_2-get_matching_score, api_6-detect_bonafide",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-get_matching_score, api_4-get_orientation_angles",
+                "api_1-classify_pattern, api_8-enhance_image, api_2-get_matching_score, api_4-get_orientation_angles",
+                "api_6-detect_bonafide, api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-detect_bonafide, api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_1-classify_pattern"
+        },
+        "28": {
+            "question_text": "A longitudinal study re-acquires fingerprints of participants after 5 years. The new prints are enhanced, minutiae statistics and orientation flows compared to previous records. Researchers analyze pattern class stability to improve long-term biometric matching algorithms. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count, api_4-get_orientation_angles, api_4-plot_orientation_map",
+                "api_3-get_minutiae_count, api_4-get_orientation_angles, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_3-get_minutiae_count, api_4-get_orientation_angles, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count, api_4-get_orientation_angles, api_4-plot_orientation_map"
+        },
+        "29": {
+            "question_text": "A central AFIS database audit involves re-validating stored images by recomputing orientation maps. Verification algorithms identify redundant entries for consolidation. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_4-get_orientation_angles, api_4-plot_orientation_map, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles, api_4-plot_orientation_map, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_4-plot_orientation_map, api_2-extract_features, api_2-compare_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles, api_4-plot_orientation_map, api_2-extract_features, api_2-compare_features"
+        },
+        "30": {
+            "question_text": "A smart transit gate captures fingerprints for ticket validation. The system performs bonafide detection, enhancement, and minutiae extraction. It then computes orientation fields for rotation correction and uses pattern classification for optimized indexing in the central server. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_3-extract_minutiae, api_4-get_orientation_angles, api_1-classify_pattern",
+                "api_6-detect_bonafide, api_4-get_orientation_angles, api_1-classify_pattern",
+                "api_6-detect_bonafide, api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles",
+                "api_6-detect_bonafide, api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-detect_bonafide, api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles, api_1-classify_pattern"
+        },
+        "31": {
+            "question_text": "A system needs to log the uncertainty of its pattern classification. For a given input image ('image_C.png'), it must be enhanced, and then the probabilities for 'loop', 'whorl', and 'arch' must be retrieved. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_1-classify_pattern",
+                "api_1-get_pattern_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_1-get_pattern_probabilities",
+                "api_8-enhance_image, api_1-classify_pattern, api_1-get_pattern_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_1-get_pattern_probabilities"
+        },
+        "32": {
+            "question_text": "A developer is testing a new sensor. They provide an image and need to enhance it, get the probabilities for each sensor type, and also get the probabilities for it being real or synthetic. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_6-get_real_probabilities",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_5-get_sensor_probabilities, api_6-get_real_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_1-classify_pattern, api_6-predict_real_synthetic"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_5-get_sensor_probabilities, api_6-get_real_probabilities"
+        },
+        "33": {
+            "question_text": "A dataset curation step computes orientation angles across batches to assess capture consistency across sites. This step is computed only on real prints (not synthetic). Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_4-get_orientation_angles, api_7-compare_fingerprint_ace, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_4-get_orientation_angles, api_4-plot_orientation_map",
+                "api_6-predict_real_synthetic, api_4-get_orientation_angles, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-predict_real_synthetic, api_4-get_orientation_angles, api_4-plot_orientation_map"
+        },
+        "34": {
+            "question_text": "In a routine check, A visualization suite overlays orientation maps and minutiae for side-by-side expert comparison. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_1-classify_pattern, api_4-plot_orientation_map, api_3-plot_minutiae_overlay",
+                "api_4-get_orientation_angles, api_4-plot_orientation_map, api_3-plot_minutiae_overlay",
+                "api_1-classify_pattern, api_3-extract_minutiae, api_3-plot_minutiae_overlay",
+                "api_6-predict_real_synthetic, api_4-get_orientation_angles, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_4-get_orientation_angles, api_4-plot_orientation_map, api_3-plot_minutiae_overlay"
+        },
+        "35": {
+            "question_text": "A government ID program needs to split a palm image, enhance per-finger crops, and create searchable templates for each finger. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-get_real_probabilities, api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features",
+                "api_2-extract_features, api_8-enhance_image, api_9-segment_palm_print",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features",
+                "api_7-compare_fingerprint_ace, api_8-enhance_image, api_2-extract_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+        },
+        "36": {
+            "question_text": "A sensor performance study classifies pattern, then compares matching scores between devices based on sensor type to quantify interoperability. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-get_real_probabilities, api_2-get_matching_score, api_2-extract_features",
+                "api-5_predict_sensor_type, api_1-classify_pattern, api_2-get_matching_score",
+                "api_9-segment_palm_print, api_8-enhance_image, api-5_predict_sensor_type, api_2-extract_features",
+                "api_7-compare_fingerprint_ace, api_8-enhance_image, api_2-get_matching_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api-5_predict_sensor_type, api_1-classify_pattern, api_2-get_matching_score"
+        },
+        "37": {
+            "question_text": "An access point wants to reduce false accepts by enhancing the image, deriving orientation consistency, and checking matching scores against a template. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-get_orientation_angles, api_2-get_matching_score",
+                "api_4-get_orientation_angles, api_2-get_matching_score, api_8-enhance_image",
+                "api_8-enhance_image, api_4-get_orientation_angles",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_5-predict_sensor_type"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_4-get_orientation_angles, api_2-get_matching_score"
+        },
+        "38": {
+            "question_text": "A research pipeline flags suspicious enrollments by combining synthetic probability checks with feature extraction and pattern class for clustering. The outputs will be reviewed by analysts. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_2-extract_features, api_2-compare_features, api_1-classify_pattern",
+                "api_8-enhance_image, api_2-extract_features, api_6-get_real_probabilities",
+                "api_6-get_real_probabilities, api_4-get_orientation_angles, api_1-classify_pattern",
+                "api_6-get_real_probabilities, api_2-extract_features, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-get_real_probabilities, api_2-extract_features, api_1-classify_pattern"
+        },
+        "39": {
+            "question_text": "A medical kiosk splits a hand scan into five fingerprints and attempts to identify corresponding patient records after enhancement. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features, api_3-extract_minutiae",
+                "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "40": {
+            "question_text": "A forensic workflow needs an ACE-V sheet and the resulting comparison decision documented for the case file. The fingerprint needs to be check for spoof first. The outputs will be reviewed by analysts. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_7-prepare_ace_sheet, api_5-predict_sensor_type, api_7-compare_fingerprint_ace",
+                "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_7-compare_fingerprint_ace, api_7-prepare_ace_sheet, api_6-detect_bonafide",
+                "api_6-detect_bonafide, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_6-detect_bonafide, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+        },
+        "41": {
+            "question_text": "A criminal database needs to be updated. A new palm print is provided. The system must segment it, enhance the index finger, and extract its minutiae for storage, only if the quality is above 60. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score, api_3-extract_minutiae",
+                "api_8-enhance_image, api_10-get_quality_score, api_3-extract_minutiae, api_9-segment_palm_print",
+                "api_3-extract_minutiae, api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score, api_3-extract_minutiae"
+        },
+        "42": {
+            "question_text": "A mobile app developer wants to show users the ridge flow of the uploaded fingerprint image. The app should take the print, enhance it, and then generate the orientation flow map to display along with the quality score. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api-4_get_orientation_angles, api_4-plot_orientation_map, api_10-get_quality_score",
+                "api_4-plot_orientation_map, api-4_get_orientation_angles, api_10-get_quality_score",
+                "api_8-enhance_image, api_4-plot_orientation_map, api_10-get_quality_score",
+                "api_10-get_quality_score, api_8-enhance_image, api-4_get_orientation_angles, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api-4_get_orientation_angles, api_4-plot_orientation_map, api_10-get_quality_score"
+        },
+        "43": {
+            "question_text": "A researcher is analyzing ridge characteristics. They need to take a print, enhance it, get the 2D array of orientation angles with a kxk block size, and then extract the minutiae list. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-plot_orientation_map, api_10-get_quality_score",
+                "api_4-plot_orientation_map, api_1-classify_pattern, api_10-get_quality_score",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_3-extract_minutiae",
+                "api_10-get_quality_score, api_8-enhance_image, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_4-get_orientation_angles, api_3-extract_minutiae"
+        },
+        "44": {
+            "question_text": "An anti-spoofing mechanism for a secure vault first checks if a print is bonafide. If it is, it enhances the print and compares the extracted features against the authorized user's stored features. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-plot_orientation_map, api_10-get_quality_score",
+                "api_6-detect_bonafide, api_1-classify_pattern, api_10-get_quality_score",
+                "api_6-detect_bonafide, api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_10-get_quality_score, api_8-enhance_image, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_6-detect_bonafide, api_8-enhance_image, api_2-extract_features, api_2-compare_features"
+        },
+        "45": {
+            "question_text": "A research project requires classifying fingerprints based on sensor and pattern but before that, system needs to enhance the image. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-plot_orientation_map, api_10-get_quality_score",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_3-extract_minutiae",
+                "api_10-get_quality_score, api_8-enhance_image, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern"
+        },
+        "46": {
+            "question_text": "A system is designed to test the robustness of different fingerprint sensors. Given an input print, it must be enhanced, and then the system needs to retrieve the probabilities for each sensor type and log the quality score. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_1-classify_pattern, api_10-get_quality_score",
+                "api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_3-extract_minutiae",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_10-get_quality_score"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_5-get_sensor_probabilities, api_10-get_quality_score"
+        },
+        "47": {
+            "question_text": "For a high-security system, it receives a print. It must enhance the print, get the probabilities that the print is 'real', and also get the probabilities for its pattern type. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities",
+                "api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_3-extract_minutiae",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_10-get_quality_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities"
+        },
+        "48": {
+            "question_text": "A statistical analysis of a database requires knowing the pattern and minutiae count. The print must be enhanced, its pattern classified, its minutiae extracted, and the total minutiae count retrieved. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_3-extract_minutiae, api_3-get_minutiae_count"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "49": {
+            "question_text": "A system needs to compare a new, low-quality fingerprint against a high-quality reference feature vector. The new print must be enhanced, its features extracted, and then compared to the reference features. Which is the correct API sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_2-extract_features, api_2-compare_features",
+                "api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_3-get_minutiae_count"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-compare_features"
+        },
+        "50": {
+            "question_text": "A secure login checks for spoof. Enhance print, get 'real' probability, and if high, get matching score against stored print. Which is the correct API sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-get_matching_score",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_2-get_matching_score",
+                "api_1-classify_pattern, api_6-get_real_probabilities, api_2-get_matching_score"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_6-get_real_probabilities, api_2-get_matching_score"
+        },
+        "51": {
+            "question_text": "An analyst needs minutiae count for the index finger from a palm print. After enhancement, minutiae are extracted and count is obtained. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image",
+                "api_9-segment_palm_print, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "52": {
+            "question_text": "A developer tests sensor quality. Test print needs to be enhanced and if quality score is high, sensor type needs to be classified. Which sequence of API calls is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_10-get_quality_score, api_5-predict_sensor_type",
+                "api_1-classify_pattern, api_10-get_quality_score, api_5-predict_sensor_type",
+                "api_8-enhance_image, api_10-get_quality_score, api_6-predict_real_synthetic",
+                "api_8-enhance_image, api_10-get_quality_score, api_5-predict_sensor_type"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_10-get_quality_score, api_5-predict_sensor_type"
+        },
+        "53": {
+            "question_text": "An analyst needs to visualize minutiae on the index finger from a palm print. The segmented print should be enhanced first. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_9-segment_palm_print, api_1-classify_pattern, api_3-plot_minutiae_overlay",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_3-plot_minutiae_overlay"
+        },
+        "54": {
+            "question_text": "A system must find a match in a database. But before that, enhance, and if the print is not synthetic, extract features for identification. Which is the correct API sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint",
+                "api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint",
+                "api_6-predict_real_synthetic, api_2-extract_features"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "55": {
+            "question_text": "A researcher compares matching methods. For two prints, they enhance both, extract features from both, get a boolean comparison, and also get the direct matching score. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_2-extract_features, api_2-compare_features, api_2-get_matching_score",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_2-get_matching_score",
+                "api_8-enhance_image, api_2-extract_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_2-get_matching_score"
+        },
+        "56": {
+            "question_text": "A biometric report system needs pattern and orientation. For a print, it enhances, classifies pattern, and plots the orientation map. Select the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_1-classify_pattern, api_4-get_orientation_angles, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_4-get_orientation_angles",
+                "api_1-classify_pattern, api_4-get_orientation_angles"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_1-classify_pattern, api_4-get_orientation_angles, api_4-plot_orientation_map"
+        },
+        "57": {
+            "question_text": "A full analysis of a palm print is needed. The system must segment it, enhance the index finger, and generate a minutiae overlay plot for that finger. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_9-segment_palm_print, api_3-plot_minutiae_overlay",
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_9-segment_palm_print, api_1-classify_pattern, api_3-plot_minutiae_overlay"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_3-plot_minutiae_overlay"
+        },
+        "58": {
+            "question_text": "A researcher is correlating pattern and sensor data. For a print after enhancement, pattern probabilities are retrieved, and sensor probabilities are retrieved. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_1-get_pattern_probabilities, api_5-get_sensor_probabilities",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_5-get_sensor_probabilities",
+                "api_8-enhance_image, api_1-get_pattern_probabilities, api_5-get_sensor_probabilities"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_1-get_pattern_probabilities, api_5-get_sensor_probabilities"
+        },
+        "59": {
+            "question_text": "An enrollment system needs to ensure print quality. It enhances the print, logs the quality score, before getting minutiae count. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_10-get_quality_score, api_3-extract_minutiae",
+                "api_8-enhance_image, api_10-get_quality_score, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_2-extract_features"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_10-get_quality_score, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "60": {
+            "question_text": "A formal ACE-V analysis is needed for a court case. The system must take the questioned print and suspect print, prepare the ACE-V sheet, log the quality, and then get the final decision. The prints are already high quality and do not need enhancement. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_7-prepare_ace_sheet, api_10-get_quality_score, api_7-compare_fingerprint_ace",
+                "api_2-extract_features, api_7-prepare_ace_sheet, api_10-get_quality_score",
+                "api_8-enhance_image, api_2-extract_features, api_7-prepare_ace_sheet",
+                "api_8-enhance_image, api_10-get_quality_score,  api_2-extract_features, api_2-compare_features"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_7-prepare_ace_sheet, api_10-get_quality_score, api_7-compare_fingerprint_ace"
+        },
+        "61": {
+            "question_text": "A civil registry system needs to check if a person is already registered under a different identity. The process is to enhance the print and search the entire existing database for a match. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-compare_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_1-classify_pattern, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "62": {
+            "question_text": "A system needs to perform a full forensic analysis on a poor-quality print. It must be enhanced, its minutiae extracted, and a minutiae overlay plot generated. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-plot_minutiae_overlay",
+                "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_3-extract_minutiae, api_1-classify_pattern, api_2-compare_features",
+                "api_8-enhance_image, api_4-plot_orientation_map, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_3-plot_minutiae_overlay"
+        },
+        "63": {
+            "question_text": "A high-security system checks a print's authenticity. It enhances the print, predicts the sensor type, and predicts if it's real or synthetic. Select the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-predict_sensor_type, api_3-plot_minutiae_overlay",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_6-predict_real_synthetic",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_5-predict_sensor_type, api_6-predict_real_synthetic"
+        },
+        "64": {
+            "question_text": "A system logs detailed biometric data. For an input print, it must be enhanced, its pattern probabilities retrieved, and its real/synthetic probabilities retrieved. Which is the correct API sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_1-get_pattern_probabilities, api_5-predict_sensor_type",
+                "api_8-enhance_image, api_6-get_real_probabilities",
+                "api_8-enhance_image, api_1-classify_pattern",
+                "api_8-enhance_image, api_1-get_pattern_probabilities, api_6-get_real_probabilities"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_1-get_pattern_probabilities, api_6-get_real_probabilities"
+        },
+        "65": {
+            "question_text": "A system needs to analyze the index finger from a palm print. It must segment the palm, enhance the index finger, and classify its pattern if the quality score is greater than 70. Which is the correct API sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_10-get_quality_score, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern"
+        },
+        "66": {
+            "question_text": "A system needs to log the probability of a print being synthetic and also the probability of it being an 'arch' pattern. The print must be enhanced first. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_1-classify_pattern, api_1-get_pattern_probabilities",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-get_pattern_probabilities",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_10-get_quality_score"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities"
+        },
+        "67": {
+            "question_text": "A border control system captures a print and must check its authenticity and match it. It enhances the print, predicts the sensor type, predicts if it's bonafide, and if it is, extracts features to identify against a watchlist. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-predict_sensor_type, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features",
+                "api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_5-predict_sensor_type, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "68": {
+            "question_text": "A forensic expert needs to formally compare two prints using the ACE-V methodology. The print should be checked for spoof. Then, the ACE-V sheet is prepared using both the prints, and a final decision is obtained. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-detect_bonafide, api_7-compare_fingerprint_ace",
+                "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_6-detect_bonafide, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_6-detect_bonafide, api_6-get_real_probabilities, api_7-compare_fingerprint_ace"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_6-detect_bonafide, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+        },
+        "69": {
+            "question_text": "A forensic expert needs to formally compare two prints using the ACE-V methodology. The print should be checked for spoof. Then, the ACE-V sheet is prepared using both the prints, and a final decision is obtained. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-detect_bonafide, api_7-compare_fingerprint_ace",
+                "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_6-detect_bonafide, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_6-detect_bonafide, api_6-get_real_probabilities, api_7-compare_fingerprint_ace"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_6-detect_bonafide, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+        },
+        "70": {
+            "question_text": "A mobile app must verify an uploaded user's print. The process is to enhance the print, check if it's real or synthetic, and if real, get a matching score against the user's stored print. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-get_matching_score",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-compare_features",
+                "api_6-predict_real_synthetic, api_8-enhance_image, api_2-get_matching_score",
+                "api_8-enhance_image, api_2-get_matching_score, api_7-compare_fingerprint_ace"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_6-predict_real_synthetic, api_2-get_matching_score"
+        },
+        "71": {
+            "question_text": "A research project requires classifying fingerprints based on sensor and pattern. For an input image, the system must enhance it, predict the sensor type, and classify the main pattern. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_5-predict_sensor_type, api_1-classify_pattern, api_8-enhance_image",
+                "api_8-enhance_image, api_5-predict_sensor_type",
+                "api_8-enhance_image, api_5-get_sensor_probabilities"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern"
+        },
+        "72": {
+            "question_text": "An automated system processes palm prints from a crime scene. It must segment the palm, enhance the index finger, and then classify its pattern. Select the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-get_pattern_probabilities",
+                "api_9-segment_palm_print, api_1-classify_pattern, api_8-enhance_image",
+                "api_8-enhance_image, api_9-segment_palm_print, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern"
+        },
+        "73": {
+            "question_text": "A quality assurance check for a fingerprint database involves enhancing the print, extracting its minutiae, and then getting a total count of all minutiae. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_3-extract_minutiae",
+                "api_3-extract_minutiae, api_8-enhance_image, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_3-extract_minutiae, api_2-extract_features"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "74": {
+            "question_text": "A forensic expert needs to create a visual report on ridge flow. Given a print, they must enhance it and then plot the orientation flow map on the enhanced image. Select the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-get_orientation_angles",
+                "api_4-plot_orientation_map, api_8-enhance_image",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_4-get_orientation_angles, api_4-plot_orientation_map"
+        },
+        "75": {
+            "question_text": "A system is designed to test the robustness of different sensors. Given an input print, it must be enhanced, and then the system needs to retrieve the probabilities for each sensor type. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-get_orientation_angles",
+                "api_5-get_sensor_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_5-get_sensor_probabilities",
+                "api_8-enhance_image, api_5-predict_sensor_type, api_5-get_sensor_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_5-get_sensor_probabilities"
+        },
+        "76": {
+            "question_text": "For a high-security login, the system receives a print. It must enhance the print, get the probabilities that it is 'real', and also get the probabilities for its pattern type. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities",
+                "api_6-get_real_probabilities, api_1-get_pattern_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities"
+        },
+        "77": {
+            "question_text": "An enrollment process for a theme park pass involves capturing a palm print. The system must segment the palm, enhance the index finger, extract its features, and store them. Select the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features",
+                "api_8-enhance_image, api_9-segment_palm_print, api_2-extract_features",
+                "api_9-segment_palm_print, api_2-extract_features, api_8-enhance_image",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-get_pattern_probabilities"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+        },
+        "78": {
+            "question_text": "A system must perform a full verification and liveness check. It takes a live print and a stored print. It enhances the live print, checks if it's real and quality is greater than 75, and if so, calculates the matching score against the stored print. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_10-get_quality_score, api_2-get_matching_score",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-compare_features",
+                "api_8-enhance_image, api_2-get_matching_score, api_6-predict_real_synthetic",
+                "api_6-predict_real_synthetic, api_8-enhance_image, api_2-get_matching_score"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_6-predict_real_synthetic, api_10-get_quality_score, api_2-get_matching_score"
+        },
+        "79": {
+            "question_text": "A researcher is comparing minutiae extraction with ridge orientation. For a test print, they need to enhance it, extract the minutiae, and also get the orientation angles. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-get_orientation_angles, api_2-get_matching_score",
+                "api_3-extract_minutiae, api_4-get_orientation_angles, api_8-enhance_image",
+                "api_8-enhance_image, api_3-extract_minutiae, api_4-plot_orientation_map",
+                "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles"
+        },
+        "80": {
+            "question_text": "A device unlock sequence needs to be fast but secure. It enhances the user's print, checks if it's bonafide, and if so, classifies its pattern. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_1-classify_pattern, api_8-enhance_image, api_6-predict_real_synthetic",
+                "api_6-predict_real_synthetic, api_8-enhance_image, api_1-classify_pattern",
+                "api_8-enhance_image, api_6-detect_bonafide, api_1-classify_pattern",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_4-get_orientation_angles"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_6-detect_bonafide, api_1-classify_pattern"
+        },
+        "81": {
+            "question_text": "An analyst needs to get the orientation flow and minutiae count for a print. The print must be enhanced, its orientation angles retrieved, its minutiae extracted, and the minutiae counted. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_1-classify_pattern, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_4-plot_orientation_map, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_6-detect_bonafide"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_4-get_orientation_angles, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "82": {
+            "question_text": "A secure login requires a print to be checked for spoofing. The system checks the quality score and if it is less than 80, enhance it and then, check if it is a bonafide print, and if so, gets a matching score against the stored print. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_10-get_quality_score, api_8-enhance_image, api_2-get_matching_score",
+                "api_10-get_quality_score, api_6-detect_bonafide, api_2-get_matching_score",
+                "api_10-get_quality_score, api_8-enhance_image, api_6-detect_bonafide",
+                "api_10-get_quality_score, api_8-enhance_image, api_6-detect_bonafide, api_2-get_matching_score"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_10-get_quality_score, api_8-enhance_image, api_6-detect_bonafide, api_2-get_matching_score"
+        },
+        "83": {
+            "question_text": "A system needs to analyze the index finger from a palm print. It must segment the palm, enhance the index finger, and classify its pattern. Select the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_9-segment_palm_print, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern",
+                "api_9-segment_palm_print, api_1-classify_pattern, api_8-enhance_image",
+                "api_9-segment_palm_print, api_8-enhance_image, api_1-get_pattern_probabilities"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_1-classify_pattern"
+        },
+        "84": {
+            "question_text": "A quality control check on a fingerprint scanner involves enhancing a test image if the quality score is less than 40 and, predicting the sensor type, and classifying the pattern. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_8-enhance_image, api_1-classify_pattern, api_5-predict_sensor_type, api_10-get_quality_score",
+                "api_10-get_quality_score, api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern",
+                "api_8-enhance_image, api_5-get_sensor_probabilities, api_1-get_pattern_probabilities"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_10-get_quality_score, api_8-enhance_image, api_5-predict_sensor_type, api_1-classify_pattern"
+        },
+        "85": {
+            "question_text": "A researcher needs to visualize the minutiae on an enhanced print. The system must enhance the print, extract the minutiae, and plot them on the enhanced image. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-plot_minutiae_overlay",
+                "api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_1-classify_pattern, api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_3-plot_minutiae_overlay"
+        },
+        "86": {
+            "question_text": "An analyst needs to compare a questioned print to a reference. The questioned print must be enhanced. Then, features are extracted from the enhanced print and the reference print, and a boolean comparison is made. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-compare_features, api_2-extract_features",
+                "api_8-enhance_image, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_2-extract_features, api_2-compare_features"
+        },
+        "87": {
+            "question_text": "A system logs detailed biometric data. For an input print, it must log quality scores, its pattern probabilities retrieved, and its 'real'/'synthetic' probabilities retrieved. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_10-get_quality_score, api_1-get_pattern_probabilities, api_6-get_real_probabilities",
+                "api_8-enhance_image, api_1-classify_pattern, api_6-predict_real_synthetic",
+                "api_1-get_pattern_probabilities, api_6-get_real_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_1-get_pattern_probabilities, api_6-predict_real_synthetic"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_10-get_quality_score, api_1-get_pattern_probabilities, api_6-get_real_probabilities"
+        },
+        "88": {
+            "question_text": "A forensic workflow requires extracting features from the thumb of a palm print for database search. The system must segment the palm, enhance the thumb, and extract its features. Which API sequence would you use?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_10-get_quality_score, api_8-enhance_image, api_2-extract_features",
+                "api_8-enhance_image, api_9-segment_palm_print, api_2-extract_features",
+                "api_1-classify_pattern, api_2-extract_features, api_8-enhance_image",
+                "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_2-extract_features"
+        },
+        "89": {
+            "question_text": "A system must verify a user against their stored features but first check for quality. The print is then enhanced, its 'real' status is predicted, and if 'real', features are extracted and compared. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-predict_real_synthetic, api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_2-extract_features, api_2-compare_features, api_6-predict_real_synthetic",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-compare_features"
+        },
+        "90": {
+            "question_text": "A longitudinal study re-acquires fingerprints of participants after 5 years. The new prints are enhanced, minutiae extracted, and orientation flows compared to previous records. Which API sequence is appropriate?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_6-predict_real_synthetic, api_8-enhance_image, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles",
+                "api_6-predict_real_synthetic, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles"
+        },
+        "91": {
+            "question_text": "When authorizing a payment, the mobile device performs real-time enhancement, bonafide detection, and feature matching against stored templates. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint",
+                "api_8-enhance_image, api_3-extract_minutiae, api_4-get_orientation_angles",
+                "api_6-detect_bonafide, api_6-predict_real_synthetic, api_2-extract_features, api_2-compare_features",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_2-extract_features"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_6-detect_bonafide, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "92": {
+            "question_text": "A system must find a match in a database but check for quality first. Enhance, predict real/synthetic, and if 'real' and quality score greater than 70, extract features for identification. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_2-extract_features, api_2-identify_fingerprint",
+                "api_10-get_quality_score, api_6-predict_real_synthetic, api_8-enhance_image, api_2-extract_features",
+                "api_8-enhance_image, api_10-get_quality_score, api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint",
+                "api_6-predict_real_synthetic, api_3-extract_minutiae, api_2-identify_fingerprint"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_10-get_quality_score, api_6-predict_real_synthetic, api_2-extract_features, api_2-identify_fingerprint"
+        },
+        "93": {
+            "question_text": "A quality check process analyzes ridge flow. Enhance the image, then plot its orientation map. Choose the correct API function sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_1-classify_pattern, api_4-get_orientation_angles",
+                "api_4-plot_orientation_map, api_8-enhance_image",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_4-plot_orientation_map"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_8-enhance_image, api_4-get_orientation_angles, api_4-plot_orientation_map"
+        },
+        "94": {
+            "question_text": "A secure access system logs spoof probability. Enhance the print, get 'real' probability, and get pattern probabilities for logging. What is the correct API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_1-classify_pattern, api_6-get_real_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities",
+                "api_8-enhance_image, api_6-detect_bonafide, api_1-classify_pattern",
+                "api_6-get_real_probabilities, api_1-get_pattern_probabilities, api_8-enhance_image"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_6-get_real_probabilities, api_1-get_pattern_probabilities"
+        },
+        "95": {
+            "question_text": "An analyst needs to visualize minutiae on the index finger from a palm print. Segment palm, and if quality score is less than 40, enhance index finger, and plot minutiae overlay. What is the correct API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-plot_minutiae_overlay",
+                "api_10-get_quality_score, api_8-enhance_image, api_3-extract_minutiae, api_3-plot_minutiae_overlay",
+                "api_8-enhance_image, api_9-segment_palm_print, api_10-get_quality_score",
+                "api_9-segment_palm_print, api_10-get_quality_score, api_8-enhance_image, api_3-plot_minutiae_overlay"
+            ],
+            "correct_answer_option": "D",
+            "answer": "api_9-segment_palm_print, api_10-get_quality_score, api_8-enhance_image, api_3-plot_minutiae_overlay"
+        },
+        "96": {
+            "question_text": "A system must compare a low-quality query print to a reference using ACE-V. Enhance query, prepare ACE-V sheet, get decision. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace",
+                "api_7-prepare_ace_sheet, api_8-enhance_image, api_7-compare_fingerprint_ace",
+                "api_8-enhance_image, api_2-get_matching_score",
+                "api_8-enhance_image, api_7-prepare_ace_sheet, api_2-compare_features"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_7-prepare_ace_sheet, api_7-compare_fingerprint_ace"
+        },
+        "97": {
+            "question_text": "A developer tests sensor quality. Enhance test print, get orientation angles, and classify sensor type. Which API sequence is correct?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_4-get_orientation_angles, api_6-predict_real_synthetic",
+                "api_1-classify_pattern, api_5-predict_sensor_type, api_4-get_orientation_angles",
+                "api_8-enhance_image, api_4-get_orientation_angles, api_5-predict_sensor_type",
+                "api_1-classify_pattern, api_4-plot_orientation_map, api_5-predict_sensor_type"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_8-enhance_image, api_4-get_orientation_angles, api_5-predict_sensor_type"
+        },
+        "98": {
+            "question_text": "A researcher needs minutiae count for the middle finger of a palm print. Segment palm, enhance middle finger, extract minutiae, get count. Choose the correct API sequence.",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_9-segment_palm_print, api_8-enhance_image, api_5-predict_sensor_type",
+                "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count",
+                "api_8-enhance_image, api_9-segment_palm_print, api_3-get_minutiae_count, api_3-extract_minutiae"
+            ],
+            "correct_answer_option": "C",
+            "answer": "api_9-segment_palm_print, api_8-enhance_image, api_3-extract_minutiae, api_3-get_minutiae_count"
+        },
+        "99": {
+            "question_text": "A system analyzes biometric data. Enhance print if quality score is less than 40 and classify pattern, and predict 'real'/'synthetic'. What is the correct API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern, api_6-predict_real_synthetic",
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_1-classify_pattern",
+                "api_10-get_quality_score, api_6-predict_real_synthetic, api_8-enhance_image",
+                "api_8-enhance_image, api_1-get_pattern_probabilities, api_6-get_real_probabilities"
+            ],
+            "correct_answer_option": "A",
+            "answer": "api_8-enhance_image, api_10-get_quality_score, api_1-classify_pattern, api_6-predict_real_synthetic"
+        },
+        "100": {
+            "question_text": "A system must check a print's authenticity. It enhances the print, gets the 'real' probability, and gets the 'optical' sensor probability. What is the appropriate API function sequence?",
+            "image_paths": [
+                "/scratch/eg4131/FPBench/misc/question_1.png"
+            ],
+            "options": [
+                "api_8-enhance_image, api_6-predict_real_synthetic, api_1-classify_pattern",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_5-get_sensor_probabilities",
+                "api_6-get_real_probabilities, api_5-get_sensor_probabilities, api_8-enhance_image",
+                "api_8-enhance_image, api_6-get_real_probabilities, api_1-classify_pattern"
+            ],
+            "correct_answer_option": "B",
+            "answer": "api_8-enhance_image, api_6-get_real_probabilities, api_5-get_sensor_probabilities"
+        }
+    }
+}

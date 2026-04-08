@@ -1,0 +1,3260 @@
+{
+    "category": "fp_level1",
+    "sub-category": "orientation",
+    "dataset": "ALL",
+    "question_type": "MCQ",
+    "num_images": "single",
+    "system": "You are an expert fingerprint examiner.",
+    "prepend_text": "",
+    "postpend_text": "Please think step by step and provide your reasoning in brief before giving the final answer. Include the final correct answer option e.g., A, B, C, D at the end of your answer.",
+    "questions": {
+        "1": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/103_5.png"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "2",
+                "0",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "2": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_3.png"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "2",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "3": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_8.png"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "3",
+                "2",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "4": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_3.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "1 cores and 3 deltas",
+                "2 cores and 0 deltas",
+                "2 cores and 2 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "5": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_2.png"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "0 cores and 0 deltas",
+                "0 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "6": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_6.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "0",
+                "4",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "7": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_2.png"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "1 cores and 0 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "8": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_6.png"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "9": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/103_6.png"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "4",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "10": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_6.png"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "11": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_7.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "12": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_7.png"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "2 cores and 0 deltas",
+                "1 cores and 0 deltas",
+                "2 cores and 1 deltas",
+                "0 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "13": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_2.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "4",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "14": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "4",
+                "0",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "15": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_2.png"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "0",
+                "3",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "16": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_8.png"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "0 cores and 0 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "17": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_2.png"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "18": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/103_4.png"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "0 cores and 0 deltas",
+                "1 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "2 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "19": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_2.png"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "20": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_1.png"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "3 cores and 1 deltas",
+                "1 cores and 1 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "21": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_6.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "3",
+                "2",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "22": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_1.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "3",
+                "1",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "23": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_2.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "0",
+                "4",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "24": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "2",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "25": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/103_2.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "3",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "26": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_4.png"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "4",
+                "3",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "27": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_5.png"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "2",
+                "3",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "28": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_3.png"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "1",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "29": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "2 cores and 1 deltas",
+                "1 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "30": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_8.png"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "1 cores and 3 deltas",
+                "0 cores and 1 deltas",
+                "0 cores and 0 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "31": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_6.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "1",
+                "2",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "32": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_4.png"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "1 cores and 3 deltas",
+                "2 cores and 2 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "33": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_3.png"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "34": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_2.png"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "3",
+                "1",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "35": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_1.png"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "36": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_1.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "1",
+                "3",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "37": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "2 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "1 cores and 3 deltas",
+                "3 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "38": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_7.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "1",
+                "4",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "39": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_8.png"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "1",
+                "4",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "40": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_2.png"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "2",
+                "3",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "41": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_1.png"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "3 cores and 1 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 0 deltas",
+                "1 cores and 3 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "42": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_8.png"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "43": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_5.png"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "2 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 2 deltas",
+                "0 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "44": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "4",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "3",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "45": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_5.png"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 0 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 1 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "46": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_6.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "2",
+                "0",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "47": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_3.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "4",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "48": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/103_7.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "49": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_7.png"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "1",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "50": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_6.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "2",
+                "1",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "51": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_7.png"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "0",
+                "3",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "52": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_3.png"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "0",
+                "4",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "53": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_5.png"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "4",
+                "3",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "54": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_2.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "1 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "2 cores and 2 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "55": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_3.png"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "2 cores and 2 deltas",
+                "1 cores and 1 deltas",
+                "0 cores and 0 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "56": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_4.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "3",
+                "4",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "57": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_1.png"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "1 cores and 2 deltas",
+                "0 cores and 0 deltas",
+                "1 cores and 0 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "58": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_8.png"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "2",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "59": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_4.png"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "1",
+                "0",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "60": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_1.png"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "4",
+                "0",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "61": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_2.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "0",
+                "2",
+                "1",
+                "4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "62": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_3.png"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "2 cores and 2 deltas",
+                "2 cores and 1 deltas",
+                "2 cores and 0 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "63": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_5.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "64": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_6.png"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "3",
+                "2",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "65": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_7.png"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "1",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "66": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_2.png"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "2 cores and 2 deltas",
+                "1 cores and 0 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "67": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_3.png"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "0",
+                "4",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "68": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_6.png"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "2 cores and 1 deltas",
+                "1 cores and 2 deltas",
+                "3 cores and 1 deltas",
+                "0 cores and 0 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "69": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_7.png"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "70": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_4.png"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 1 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 2 deltas",
+                "0 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "71": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/109_5.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "2",
+                "4",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "72": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_7.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "73": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_2.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "74": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_4.png"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "3",
+                "1",
+                "4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "75": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/102_5.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "76": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "2",
+                "4",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "77": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_3.png"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "0",
+                "1",
+                "4",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "78": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_6.png"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "2",
+                "1",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "79": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_2.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "1 cores and 0 deltas",
+                "2 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "80": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_8.png"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "1 cores and 1 deltas",
+                "0 cores and 1 deltas",
+                "2 cores and 0 deltas",
+                "2 cores and 2 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "81": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_5.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "82": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/104_1.png"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "1 cores and 0 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 2 deltas",
+                "2 cores and 2 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "83": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/107_8.png"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "84": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/105_8.png"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "1",
+                "4",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "85": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/101_8.png"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "86": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/106_7.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "0",
+                "4",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "87": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/110_2.png"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "2 cores and 2 deltas",
+                "1 cores and 0 deltas",
+                "2 cores and 1 deltas",
+                "3 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "88": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002302_P_500_plain_04.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "4",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "89": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002582_L_500_plain_02.png"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "1",
+                "3",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "3",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "90": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002558_M_500_plain_06.png"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "91": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002554_M_500_plain_06.png"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "0 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "92": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002584_K_500_plain_09.png"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "93": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002541_K_500_plain_03.png"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "2 cores and 1 deltas",
+                "0 cores and 0 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "94": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002644_M_500_plain_09.png"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "0",
+                "4",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "95": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002583_L_500_plain_10.png"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "2 cores and 1 deltas",
+                "1 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "96": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002353_M_500_plain_06.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "2",
+                "4",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "97": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002610_M_500_plain_03.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "1",
+                "4",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "98": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002488_M_500_plain_10.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "1",
+                "3",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "99": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002456_M_500_plain_08.png"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "100": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002325_L_500_plain_10.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "4",
+                "2",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "101": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002615_K_500_plain_09.png"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "0",
+                "4",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "102": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002375_L_500_plain_08.png"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "4",
+                "1",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "103": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002649_M_500_plain_08.png"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "104": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002614_L_500_plain_09.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "1 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "2 cores and 1 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "105": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002388_M_500_plain_01.png"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "0 cores and 0 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "106": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002434_M_500_plain_06.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "4",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "107": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002546_L_500_plain_10.png"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "1 cores and 1 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 2 deltas",
+                "3 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "108": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002559_L_500_plain_06.png"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "D",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "109": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002493_L_500_plain_04.png"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "3",
+                "2",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "110": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002413_L_500_plain_06.png"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "111": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002340_P_500_plain_07.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "3",
+                "4",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "112": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002528_K_500_plain_09.png"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "1 cores and 3 deltas",
+                "0 cores and 0 deltas",
+                "0 cores and 1 deltas",
+                "2 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "113": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002409_L_500_plain_04.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "4",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "3",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "114": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002571_K_500_plain_03.png"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "115": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002518_L_500_plain_07.png"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "1",
+                "4",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "116": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002651_L_500_plain_04.png"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 1 deltas",
+                "2 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 3 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "117": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002247_01_dryrun-D_500_plain_07.png"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "2",
+                "3",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "118": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002228_01_dryrun-D_500_plain_03.png"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "2 cores and 0 deltas",
+                "1 cores and 3 deltas",
+                "1 cores and 1 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "119": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002247_01_dryrun-B_500_roll_07.png"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "4",
+                "2",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "120": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002254_01_dryrun-B_500_roll_09.png"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "0 cores and 0 deltas",
+                "1 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "121": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002228_01_dryrun-H_500_slap_08.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "3",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "122": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002260_01_dryrun-E_500_plain_05.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "1",
+                "4",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "123": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002267_01_dryrun-H_500_slap_09.png"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "4",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "124": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002227_01_dryrun-L_500_plain_04.png"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "0",
+                "3",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "125": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-C_500_slap_07.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "1",
+                "0",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "126": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002266_01_dryrun-B_500_roll_09.png"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "127": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002260_01_dryrun-K_500_slap_09.png"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "128": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002247_01_dryrun-M_500_plain_01.png"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "0",
+                "1",
+                "3",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "129": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002267_01_dryrun-A_500_roll_02.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "0 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "130": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002263_01_dryrun-D_500_plain_08.png"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "2 cores and 1 deltas",
+                "1 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "2 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "131": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002239_01_dryrun-B_500_roll_06.png"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "2",
+                "4",
+                "1",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "132": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002244_01_dryrun-K_500_slap_10.png"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "133": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002236_01_dryrun-B_500_roll_03.png"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "134": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002258_01_dryrun-F_500_slap_07.png"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "135": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002228_01_dryrun-A_500_roll_04.png"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "136": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002247_01_dryrun-A_500_roll_03.png"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "2",
+                "4",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "137": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002263_01_dryrun-J_500_plain_10.png"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas",
+                "0 cores and 0 deltas",
+                "1 cores and 2 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "138": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002246_01_dryrun-E_500_plain_04.png"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "1",
+                "4",
+                "0",
+                "3"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "139": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002267_01_dryrun-H_500_slap_10.png"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "0",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "140": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002225_01_dryrun-K_500_slap_02.png"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "3",
+                "0",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "141": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002247_01_dryrun-B_500_roll_08.png"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 1 deltas",
+                "1 cores and 3 deltas",
+                "0 cores and 1 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "142": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002267_01_dryrun-B_500_roll_03.png"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "3",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "3",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "143": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002269_01_dryrun-E_500_plain_10.png"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "2 cores and 1 deltas",
+                "0 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "144": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002234_01_dryrun-B_500_roll_07.png"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "4",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "145": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/00002263_01_dryrun-A_500_roll_07.png"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "3 cores and 1 deltas",
+                "1 cores and 1 deltas",
+                "0 cores and 0 deltas",
+                "1 cores and 3 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "146": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1087_0_average quality_rolled__capacitive.jpg"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "3",
+                "1",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "147": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1122_0_average quality_slap_Zvetco_capacitive.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "2",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "148": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1040_8_average quality_swipe_FingerChip_thermal.jpg"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "0",
+                "2",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "149": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1049_0_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "3",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "150": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1098_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "4",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "151": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1129_0_average quality_slap_GreenBit_FTIR optical.jpg"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "3",
+                "1",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "152": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1127_6_average quality_slap_eNBioScan_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "2",
+                "0",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "153": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1129_0_average quality_contactless_ANDI_direct-view optical.jpg"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "3",
+                "0",
+                "2",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "154": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1078_0_average quality_swipe_Eikon_capacitive.jpg"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "2 cores and 1 deltas",
+                "0 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "155": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1106_11_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "2 cores and 1 deltas",
+                "0 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "3 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "0 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "156": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1144_0_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "3",
+                "4",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "157": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1091_1_average quality_slap_Futronic_FTIR optical.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "0 cores and 0 deltas",
+                "1 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 3 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "158": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1074_7_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "0",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "159": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1026_8_average quality_contactless_MorphoWave_direct-view optical.jpg"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "2",
+                "0",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "160": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/108_0_average quality_slap_DF90_FTIR optical.jpg"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "4",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "161": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1031_0_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "2",
+                "3",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "162": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1012_8_average quality_slap_Desktop Scanner_FTIR optical.jpg"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "1 cores and 3 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 0 deltas",
+                "0 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "163": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1004_12_average quality_contactless_S120_direct-view optical.jpg"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "0",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "164": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1051_0_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "4",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "165": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1070_5_average quality_rolled_CrossMatch_FTIR optical.jpg"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "166": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1014_0_average quality_slap_Futronic_FTIR optical.jpg"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "2 cores and 0 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 1 deltas",
+                "3 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "167": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/112_10_average quality_rolled_ink on stock paper_.jpg"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "2",
+                "3",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "168": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1072_14_average quality_slap_Eikon_capacitive.jpg"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "1 cores and 0 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 0 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "169": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/100_9_average quality_slap_Futronic_FTIR optical.jpg"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "2",
+                "4",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "170": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1031_0_average quality_rolled_DactyScan_FTIR optical.jpg"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 1 deltas",
+                "2 cores and 1 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 3 deltas"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "171": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1098_0_average quality_slap_Lumidgm_multispectral optical.jpg"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "3",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "172": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1062_3_average quality_slap_RaspiReader_FTIR optical.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "4",
+                "1",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "173": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/1093_11_average quality_slap_Suprema RealScanG1_FTIR optical.jpg"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "3",
+                "0",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "174": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/11_10_average quality_slap_eNBioScan_FTIR optical.jpg"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "3",
+                "1",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "175": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/599.jpg"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "176": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/540.jpg"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "4",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "177": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/573.jpg"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "178": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/931.jpg"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "4",
+                "1",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "179": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/99.jpg"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, determine the number of cores and deltas.",
+            "options": [
+                "1 cores and 2 deltas",
+                "0 cores and 1 deltas",
+                "0 cores and 0 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "180": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/78.jpg"
+            ],
+            "question_text": "In the fingerprint orientation flow image, how many cores and how many deltas can be observed?",
+            "options": [
+                "2 cores and 1 deltas",
+                "1 cores and 1 deltas",
+                "2 cores and 2 deltas",
+                "1 cores and 3 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2 cores and 2 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "181": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/275.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many core points can be identified?",
+            "options": [
+                "2",
+                "1",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "182": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/467.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow map shown, identify both the number of cores and the number of deltas.",
+            "options": [
+                "1 cores and 3 deltas",
+                "2 cores and 2 deltas",
+                "2 cores and 1 deltas",
+                "0 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "183": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/851.jpg"
+            ],
+            "question_text": "Determine the total number of deltas visible in the given fingerprint orientation flow image.",
+            "options": [
+                "1",
+                "4",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "0",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "184": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/23.jpg"
+            ],
+            "question_text": "How many core points are present in the fingerprint orientation flow image?",
+            "options": [
+                "1",
+                "3",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "185": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/547.jpg"
+            ],
+            "question_text": "Identify the number of core points in the given fingerprint orientation flow image.",
+            "options": [
+                "4",
+                "2",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "B",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "186": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/532.jpg"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "1",
+                "3",
+                "4",
+                "2"
+            ],
+            "correct_answer_option": "C",
+            "answer": "4",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "187": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/265.jpg"
+            ],
+            "question_text": "How many core points and how many delta points are visible in the fingerprint orientation flow image?",
+            "options": [
+                "1 cores and 3 deltas",
+                "1 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "2 cores and 1 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "188": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/633.jpg"
+            ],
+            "question_text": "From the given fingerprint orientation flow image, how many singular points can be identified?",
+            "options": [
+                "1",
+                "4",
+                "3",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "189": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/474.jpg"
+            ],
+            "question_text": "How many singular points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "1",
+                "4",
+                "0",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "190": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/63.jpg"
+            ],
+            "question_text": "How many delta points are present in the fingerprint orientation flow image shown?",
+            "options": [
+                "2",
+                "4",
+                "1",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "191": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/731.jpg"
+            ],
+            "question_text": "Count the number of cores and deltas separately in this fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 2 deltas",
+                "1 cores and 1 deltas",
+                "3 cores and 1 deltas",
+                "1 cores and 0 deltas"
+            ],
+            "correct_answer_option": "B",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "192": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/585.jpg"
+            ],
+            "question_text": "Count the number of singular points in the fingerprint orientation flow image shown.",
+            "options": [
+                "4",
+                "0",
+                "1",
+                "2"
+            ],
+            "correct_answer_option": "D",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "193": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/321.jpg"
+            ],
+            "question_text": "Identify the count of core points and delta points in the fingerprint orienation flow image shown.",
+            "options": [
+                "1 cores and 3 deltas",
+                "1 cores and 2 deltas",
+                "1 cores and 1 deltas",
+                "0 cores and 1 deltas"
+            ],
+            "correct_answer_option": "C",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "194": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/216.jpg"
+            ],
+            "question_text": "Identify how many singular points are visible in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "4",
+                "0",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "195": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/328.jpg"
+            ],
+            "question_text": "Report the count of core points and delta points present in the given fingerprint orientation flow image.",
+            "options": [
+                "1 cores and 0 deltas",
+                "0 cores and 0 deltas",
+                "0 cores and 1 deltas",
+                "1 cores and 1 deltas"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1 cores and 1 deltas",
+            "question_type": "combined",
+            "target_label": "combined"
+        },
+        "196": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/368.jpg"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many singular points are present?",
+            "options": [
+                "2",
+                "3",
+                "0",
+                "4"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "197": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/925.jpg"
+            ],
+            "question_text": "From the fingerprint orientation flow image, how many delta points can be identified?",
+            "options": [
+                "4",
+                "0",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "198": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/516.jpg"
+            ],
+            "question_text": "Based on the given fingerprint orientation flow image, how many delta points can you detect?",
+            "options": [
+                "0",
+                "3",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "delta"
+        },
+        "199": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/443.jpg"
+            ],
+            "question_text": "Determine the total number of singular points in the given fingerprint orientation flow image.",
+            "options": [
+                "2",
+                "4",
+                "3",
+                "0"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "200": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/232.jpg"
+            ],
+            "question_text": "In the given fingerprint orientation flow image, how many singular points can you find?",
+            "options": [
+                "1",
+                "4",
+                "2",
+                "0"
+            ],
+            "correct_answer_option": "C",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "201": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/881.jpg"
+            ],
+            "question_text": "Examine the fingerprint orientation flow image and choose the correct count of singular points.",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "2",
+            "question_type": "count",
+            "target_label": "singular"
+        },
+        "202": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/98.jpg"
+            ],
+            "question_text": "Based on the fingerprint orientation flow image, how many core points can you detect?",
+            "options": [
+                "4",
+                "2",
+                "3",
+                "1"
+            ],
+            "correct_answer_option": "D",
+            "answer": "1",
+            "question_type": "count",
+            "target_label": "core"
+        },
+        "203": {
+            "image_paths": [
+                "/scratch/eg4131/FPBench/orientation_op/509.jpg"
+            ],
+            "question_text": "What is the number of singular points detected in this fingerprint orientation flow image?",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "1"
+            ],
+            "correct_answer_option": "A",
+            "answer": "4",
+            "question_type": "count",
+            "target_label": "singular"
+        }
+    }
+}
