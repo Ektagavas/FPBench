@@ -1,7 +1,7 @@
 # FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis
 <i>Ekta Gavas, Sudipta Banerjee, Chinmay Hegde, Nasir Memon</i>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2405.09882-red)](https://arxiv.org/abs/2512.18073)
+[![paper](https://img.shields.io/badge/FoundGenBio2026-CVPR2026W-blue)](https://openaccess.thecvf.com/content/CVPR2026W/FoundGen-Bio/html/Gavas_FPBench_A_Comprehensive_Benchmark_of_Multimodal_Large_Language_Models_for_CVPRW_2026_paper.html)
 
 Official implementation of paper "FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis".
 
@@ -102,11 +102,13 @@ python evaluate.py --model <model_name> --cat pattern
 This code is provided for academic and research purposes in connection with the paper "FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis". The authors have not systematically evaluated potential data leakage or memorization issues, including those that may arise from fine-tuned models or downstream applications. Commercial use is not intended or supported.
 Please cite the paper when using this code. 
 ```bibtex
-@article{gavas2025fpbench,
-  title={FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis},
-  author={Gavas, Ekta Balkrishna and Banerjee, Sudipta and Hegde, Chinmay and Memon, Nasir},
-  journal={arXiv preprint arXiv:2512.18073},
-  year={2025}
+@InProceedings{Gavas_2026_CVPR,
+    author    = {Gavas, Ekta and Banerjee, Sudipta and Hegde, Chinmay and Memon, Nasir},
+    title     = {FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {1163-1173}
 }
 ```
 
