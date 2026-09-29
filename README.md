@@ -1,7 +1,7 @@
 # FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis
 <i>Ekta Gavas, Sudipta Banerjee, Chinmay Hegde, Nasir Memon</i>
 
-[![paper](https://img.shields.io/badge/FoundGenBio2026-CVPR2026W-blue)](https://openaccess.thecvf.com/content/CVPR2026W/FoundGen-Bio/html/Gavas_FPBench_A_Comprehensive_Benchmark_of_Multimodal_Large_Language_Models_for_CVPRW_2026_paper.html)
+[![paper](https://img.shields.io/badge/FoundGenBio2026-CVPR2026W-aqua)](https://openaccess.thecvf.com/content/CVPR2026W/FoundGen-Bio/html/Gavas_FPBench_A_Comprehensive_Benchmark_of_Multimodal_Large_Language_Models_for_CVPRW_2026_paper.html)
 
 Official implementation of paper "FPBench: A Comprehensive Benchmark of Multimodal Large Language Models for Fingerprint Analysis".
 
